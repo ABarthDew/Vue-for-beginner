@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/vue7_cli/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue7_cli/project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue7_cli/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue7_cli/project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue7_cli/project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue7_cli/project/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue7_cli/project/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue7_cli/project/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue7_cli/project/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue7_cli/project/src/main.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue7_cli/project" />
+  </component>
+  <component name="ProjectId" id="1RvAPTNsk15VnmRtgFKq5fSPbkc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue6_project" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\auswo\Downloads\vue-for-beginner\vue6_project" />
+      <recent name="C:\Users\auswo\Downloads\vue-for-beginner\vue3_router" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\auswo\Downloads\vue-for-beginner" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.project2_single_file_component_ex.html">
+    <configuration name="derective3_computed.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-for-beginner/vue5_vueTemplate/derective3_computed.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="derective4_methods.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-for-beginner/vue5_vueTemplate/derective4_methods.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="derective5_watch.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-for-beginner/vue5_vueTemplate/derective5_watch.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-for-beginner/vue1/index1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="project1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-for-beginner/vue6_project/project1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="project2_single_file_component_ex.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-for-beginner/vue6_project/project2_single_file_component_ex.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.project2_single_file_component_ex.html" />
+        <item itemvalue="JavaScript Debug.project1.html" />
+        <item itemvalue="JavaScript Debug.derective5_watch.html" />
+        <item itemvalue="JavaScript Debug.derective4_methods.html" />
+        <item itemvalue="JavaScript Debug.derective3_computed.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="" />
+      <created>1570537172085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570537172085</updated>
+      <workItem from="1570537179110" duration="26487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

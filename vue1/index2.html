@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="app">
+        {{message}}
+    </div>
+
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            message:'Hello vue js!'
+        },
+        beforeCreate: function(){
+            console.log("beforeCreate");
+        },
+        created: function(){
+            console.log("created");
+        },
+        mounted: function(){
+            console.log("mounted");
+            this.message = 'hello vue222'; //message 값 변경하면 updated도 콘솔에 찍힘
+        },
+        updated: function(){ //뷰 인스턴스에서 데이터 변경이 일어나 화면이 다시 그려졌을 때 호출되는 로직
+            console.log("updated");
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    *한 곳에 모아놓으면 복잡하고 번거로움
+
+    <div id="app">
+        <my-component></my-component>
+        <your-component></your-component>
+        <p>{{message}}</p>
+    </div>
+<script>
+    Vue.component('my-component', {
+        template:'<div>1111</div>'
+    });
+    Vue.component('your-component', {
+        template:'<div>2222</div>'
+    });
+    new Vue({
+        el:'#app',
+        data:{
+            message:'1234'
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    *같은 레벨의 컴포넌트 간 통신<br>
+    <img src="https://t1.daumcdn.net/cfile/tistory/9944B9485C76273829"><br>
+    -뷰는 상위 -> 하위로만 데이터 전달 규칙
+    -사진과 같이 전달하려면 하위에서 공통 상위 컴포넌트로 이벤트를 전달한 후, 공통 상위 컴포넌트에서 2개의 하위 컴포넌트에 props를 내려보냄
+
+    -하지만 이런 구조에선 상위 컴포넌트가 필요하지 않는데도 불가피하게 사용할 수 밖에 없음(단계가 많아지고 번거로움)
+    <img src="https://t1.daumcdn.net/cfile/tistory/9929BB3A5AC371330A">
+    --->해결 방법 : 이벤트 버스 이용하기
+
+    *관계 없는 컴포넌트 간 통신 : 이벤트 버스
+    -이벤트 버스 : 개발자가 지정한 2개의 컴포넌트 간에데이터를 주고받을 수 있는 방법
+    -상위, 하위 관계를 유지하지 않아도 데이터를 한 컴포넌트에서 다른 컴포넌트로 전달 가능
+    <img src="http://wiki.sys4u.co.kr/download/attachments/8553499/Screenshot_30.png?version=1&modificationDate=1531231266000&api=v2">
+
+<!--    이벤트 버스-->
+    <div id="app">
+        <child-component></child-component>
+    </div>
+
+    <script>
+        var eventBus = new Vue(); //이벤트 버스를 위한 추가 인스턴스 1개 생성(이 변수로 새 인스턴스의 속성과 메서드에 접근 가능)
+        Vue.component('child-component', {
+            template:'<div>하위 컴포넌트 영역 <button v-on:click="showLog">show</button></div>',
+            methods:{ //이벤트를 보내는 컴포넌트
+                showLog:function(){ //showLog=메서드명
+                    eventBus.$emit('triggerEventBus', 100); //triggerEventBus=이벤트 명, 100=데이터
+                } //수신하는 쪽에 인자 값으로 100을 전달
+            }
+        });
+
+        var app = new Vue({
+            el:'#app',
+            created: function(){ //이벤트를 받는 컴포넌트
+                eventBus.$on('triggerEventBus', function(value){ //triggerEventBus=이벤트 명, value=데이터
+                    console.log("이벤트를 전달받음. 전달받은 값 : ", value);
+                }); //전달된 인자 값 100을 받음
+            }
+        });
+    </script>
+</body>
+</html>

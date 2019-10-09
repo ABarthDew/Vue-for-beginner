@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    *자바스크립트 표현식
+    - {{}} 안에 자바스크립트 표현식을 넣으면 됨
+
+    <div id="app">
+        <p>{{message}}</p>
+        <p>{{message + "!!!"}}</p>
+        <p>{{message.split('').reverse().join('')}}</p>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                message:'1234'
+            }
+        });
+    </script>
+
+    *자바스크립트 표현식에서 주의할 점
+    -자바스크립트의 선언문과 분기 구문은 사용불가
+    -복잡한 연산은 인스턴스 안에서, 화면에는 간단한 연산 결과만 표시
+
+    <div id="app2">
+<!--        {{var a = 10;}} //선언문 사용 불가-->
+<!--        {{if(true){return 100}}} //분기구분 사용 불가-->
+        {{ true ? 100 : 0}} //삼항연산자로 표현 가능
+        {{reversedMessage}}
+    </div>
+    <script>
+        new Vue({
+            el:'#app2',
+            data:{
+                message:'1234'
+            },
+            computed:{
+                reversedMessage:function(){
+                    return this.message.split('').reverse().join('');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

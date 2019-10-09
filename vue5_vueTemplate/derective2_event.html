@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    *이벤트 처리
+    // v-on 디렉티브, methods 속성 활용
+    <div id="app">
+        <button v-on:click="clickBtn">btn</button>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            methods:{
+                clickBtn:function(){
+                    alert('clicked');
+                }
+            }
+        });
+    </script>
+<hr>
+    //인자 넘기기
+    <div id="app2">
+        <button v-on:click="clickBtn2(10)">btn2</button>
+    </div>
+    <script>
+        new Vue({
+            el:'#app2',
+            methods:{
+                clickBtn2:function(num){
+                    alert('clicked' + num + 'times');
+                }
+            }
+        });
+    </script>
+    <hr>
+    //event 인자를 이용한 dom 이벤트에 접근
+    <div id="app3">
+        <button v-on:click="clickBtn3">btn3</button>
+    </div>
+    <script>
+        new Vue({
+            el:'#app3',
+            methods:{
+                clickBtn3:function(event){
+                    console.log(event);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -43,7 +43,7 @@
   </tr>
   <tr>
     <td>beforeCreate
-    <td>data, meghods 속성이 인스턴스에 미정, 화면요소에 접근x
+    <td>data, methods 속성이 인스턴스에 미정, 화면요소에 접근x
   </tr>
   <tr>
     <td>created

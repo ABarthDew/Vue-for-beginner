@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/src/components/TodoInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue8_to_do/to-do/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/src/components/QuestionBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/191112_vue1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue2/191112_vue1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/191112_vue2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue2/191112_vue2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/191112_vue3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue2/191112_vue3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/src/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,15 +50,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vue6_project" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue2" />
+      <recent name="C:\Users\auswo\Downloads\vue-for-beginner" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\auswo\Downloads\vue-for-beginner\vue6_project" />
       <recent name="C:\Users\auswo\Downloads\vue-for-beginner\vue3_router" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\auswo\Downloads\vue-for-beginner" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -103,6 +117,8 @@
       <workItem from="1570537179110" duration="26487000" />
       <workItem from="1570718686050" duration="258000" />
       <workItem from="1571059343326" duration="5512000" />
+      <workItem from="1573522909312" duration="53000" />
+      <workItem from="1573522975361" duration="1469000" />
     </task>
     <servers />
   </component>

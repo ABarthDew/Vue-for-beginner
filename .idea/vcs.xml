@@ -2,6 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue1/project2/my-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue1/zzz1/quiz" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vue7_cli/project" vcs="Git" />
   </component>
 </project>

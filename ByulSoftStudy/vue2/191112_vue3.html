@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/vue"></script>
+    <title>Title</title>
+</head>
+<body>
+인스턴스 기능
+클릭을 했을 때 클릭을 제어하는 동작 :
+
+<div id="vue">{{name}} <br>
+    <button @click="func">button</button>
+    {{phone}}<br>
+    {{comp}}
+    <input type=text v-model="name">
+</div>
+
+<script>
+    new Vue({
+        el:'#vue',
+        data: function(){
+            return {
+                name : 'ks',
+                phone:'010-1234-5678'
+            };
+        },
+        methods:{ //함수를 넣어주는 공간
+            func:function(){
+                console.log("hello");
+            }
+        },
+        computed:{ //(표현할 때만 함수, 함수x)계산된 속성, 값이므로 결과가 return 으로 떨어져야 함
+            comp:function(){
+                return this.phone.replace('-','');
+            }
+        },
+        watch:{ //값이 변화가 있을 때 감지를 해서 보여줌(computed와 유사 / 다른점 : watch는 변경할 대상을 정하고 바뀌었을 때 동작을 실행함. 값이 넘어오지는 않음/ computed에 비해 성능별로)
+            //내부적으로 데이터 변화를 감지하고 싶을 때 사용
+            name:function(a, b){
+                alert(a + " : " + b);
+            }
+        }
+        //라이크 사이클 : 모두 함수
+    });
+</script>
+</body>
+</html>
+
+
+

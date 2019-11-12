@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-for="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+
+<div id="app">{{msg}}
+    <component0 @evt="go">
+<!--        <button @click="comp">hh</button>-->
+    </component0>
+<!--    <button @click="go">hh2</button>-->
+<!--    {{go2}}-->
+    <hr>(ㄱ)
+    <child :pp="message">
+<!--        {{pp}}-->
+    </child>
+    <hr>(ㄴ)
+    <component1 :p1="items"></component1>
+    <hr>(ㄷ)
+    <component2 :p2="items"></component2>
+
+<!--    <component2 v-for="itt in p2" :key="itt">{{itt}}</component2>-->
+
+    <hr>(ㄹ)
+    <li v-for="(item, idx) in items">={{item}} ({{idx}}번째)</li>
+    <hr>(ㅁ)
+    <component3 :p3="message"></component3>
+</div>
+
+<script>
+    Vue.component('component0', {
+        methods:{
+            comp:function(){
+                this.$emit('evt');
+            }
+        },
+        template:'<button @click="comp">hh</button>'
+    });
+    Vue.component('child', {
+        props:['pp'],
+        template:'<div>{{pp}}</div>'
+    });
+    Vue.component('component1', {
+        props:['p1'],
+        template:'<li>부모 컴포넌트에서 items를 p1로 가져와 출력 : {{p1}}</li>'
+    });
+    Vue.component('component2', {
+        props:['p2'],
+        template:'<ul><li v-for="item in p2" :key="item">v-for를 이용해 p2를 출력 : {{item}}</li></ul>'
+    });
+    new Vue({
+        el:'#app',
+        data:function(){
+            return{
+                msg:'ABCED!',
+                message:'ooooo',
+                items:[1, 2, 3, 4]
+            }
+        },
+        methods:{
+            go:function(){
+                this.msg = this.msg.split('').reverse().join('');
+            }
+        },
+        computed:{
+            go2:function(){
+                return this.msg = this.msg.split('').reverse().join('');
+            }
+        },
+        components:{
+            'component3':{
+                props:['p3'],
+                template:'<div>{{p3}} : {{comData}} : {{comData2}} : {{comData3}}</div>',
+                data:function(){
+                    console.log(this.message); //undefined
+                    return{
+                        comData:this.message, //undefined
+                        comData2:1000,
+                        comData3:'p3'
+                    };
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

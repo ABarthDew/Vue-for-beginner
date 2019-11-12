@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="app">
+    <button>컴포넌트 등록</button>
+    <my-component></my-component>
+    <my-local-component></my-local-component>
+</div>
+
+<script>
+    Vue.component('my-component',{
+        template:'<div>local 컴포넌트</div>'
+    });
+    new Vue({
+        el:'#app'
+    });
+    var cmp= {
+        template: '<div>지역 컴포넌트</div>'
+    }
+    new Vue({
+        el:'#app',
+        components:{
+            'my-local-component':cmp
+        }
+    });
+</script>
+
+<hr>
+
+<div id="app2">
+    <button>컴포넌트 등록2</button>
+    <my-component></my-component>
+    <component1></component1>
+    <component2></component2>
+</div>
+
+<script>
+    Vue.component('component1',{
+        template:'<div>그냥 컴포넌트</div>'
+    });
+    var com={
+        template:'<div>지역 컴포넌트</div>'
+    }
+    new Vue({
+        el:'#app2',
+        components:{
+            'component2':com
+        }
+    });
+</script>
+
+<hr>
+
+<div id="app3">
+    <button>컴포넌트 등록3</button>
+    <component3></component3>
+    <component4></component4>
+</div>
+
+<script>
+    var com3={
+        template:'<div>component3:{{cmpData1}}</div>',
+        data:function(){
+            return{cmpData1:100}
+        }
+    }
+    var com4={
+        template:'<div>component4:{{cmp2Data1}}</div>',
+        data:function(){
+            return{cmpData2:com3.data.cmpData1}
+        }
+    }
+    new Vue({
+        el:'#app3',
+        components:{
+            'component3':com3,
+            'component4':com4
+        }
+    });
+</script>
+
+<hr>
+
+<div id="appp">
+    <com1></com1>
+    <com2></com2>
+    <com3></com3>
+</div>
+<script>
+    Vue.component('com1',{
+        template:'<div>com1</div>'
+    });
+    var co2={
+        template:'<div>com2:{{val}}</div>',
+        data:function(){
+            return{val:10}
+        }
+    }
+    var co3={
+        template:'<div>com3:</div>',
+        data:function(){
+            return{val:co2.data.val}
+        }
+    }
+    new Vue({
+        el:'#appp',
+        components:{
+            'com2':co2,
+            'com3':co3
+        }
+    });
+</script>
+
+<hr>
+
+<div id="app4">
+    <child-component v-bind:propsdata="word"></child-component>
+    <child-component v-bind:propsdata="vvv"></child-component>
+    <child-component propsdata="vvv"></child-component>
+</div>
+
+<script>
+    Vue.component('child-component', {
+        props:['propsdata'],
+        template:'<p>{{propsdata}}</p>',
+        data:{
+            function(){
+                return{vvv:'vvvv123'}
+            }
+        }
+    });
+    new Vue({
+        el:'#app4',
+        data:{
+            word:'hello component!'
+        }
+    });
+</script>
+
+<hr>
+
+<div id="app5">
+    <child v-bind:propd="any"></child>
+</div>
+<script>
+    Vue.component('child',{
+        props:['propd'],
+        template:'<div>{{propd}}</div>'
+    });
+    new Vue({
+        el:'#app5',
+        data:{any:'childchild@@@@!!'}
+    });
+</script>
+
+</body>
+</html>

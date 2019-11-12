@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div>{{greet}}</div>
+        <button @click="getData">button</button>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                greet:''
+            },
+            methods:{
+                getData:function(){
+                    axios({
+                        method:'get',
+                        url:'https://raw.githubusercontent.com/joshua1988/doit-vuejs/master/data/demo.json'
+                    }).then(function(resp){
+                        console.log(resp);
+                        this.greet = resp.data;
+                        console.log(resp.data);
+                    });
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RvAPTNsk15VnmRtgFKq5fSPbkc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -97,7 +98,7 @@
       <workItem from="1571059343326" duration="5512000" />
       <workItem from="1573522909312" duration="53000" />
       <workItem from="1573522975361" duration="15940000" />
-      <workItem from="1573607742653" duration="1543000" />
+      <workItem from="1573607742653" duration="1854000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573545680978</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <created>1573619387672</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573619387672</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

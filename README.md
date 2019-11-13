@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <td>vue 개발자 도구 설치하기
-    <td>https://nodejs.org/ko/download/ (LTS)
+    <td>https://nodejs.org/ko/download/ (LTS) 
   </tr>
   <tr>
     <td>cdn

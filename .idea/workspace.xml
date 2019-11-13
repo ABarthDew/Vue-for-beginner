@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="" />
+    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="Merge https://github.com/ABarthDew/Vue-for-beginner&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +96,7 @@
       <workItem from="1573522909312" duration="53000" />
       <workItem from="1573522975361" duration="15940000" />
       <workItem from="1573607742653" duration="2755000" />
+      <workItem from="1573620610892" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573620527800</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <created>1573620651814</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573620651814</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

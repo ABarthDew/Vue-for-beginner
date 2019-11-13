@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="Merge https://github.com/ABarthDew/Vue-for-beginner&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <workItem from="1571059343326" duration="5512000" />
       <workItem from="1573522909312" duration="53000" />
       <workItem from="1573522975361" duration="15940000" />
-      <workItem from="1573607742653" duration="2127000" />
+      <workItem from="1573607742653" duration="2262000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573619387672</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit">
+      <created>1573620000404</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573620000404</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,8 +171,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
     <MESSAGE value="Merge https://github.com/ABarthDew/Vue-for-beginner&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge https://github.com/ABarthDew/Vue-for-beginner&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

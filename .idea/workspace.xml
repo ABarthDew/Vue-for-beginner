@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="Merge https://github.com/ABarthDew/Vue-for-beginner&#10;&#10;# Conflicts:&#10;#&#9;README.md">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,19 +28,20 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/dmsales/완료/vue1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ByulSoftStudy/vue3" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue2" />
-      <recent name="C:\Users\auswo\Downloads\vue-for-beginner" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue3" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue2" />
       <recent name="C:\Users\auswo\Downloads\vue-for-beginner\vue6_project" />
       <recent name="C:\Users\auswo\Downloads\vue-for-beginner\vue3_router" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue2" />
+      <recent name="C:\Users\auswo\Downloads\vue-for-beginner" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -54,29 +56,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.component2.html">
-    <configuration name="191111_vue3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue2/191111_vue3.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.axios.html">
+    <configuration name="191118_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/ByulSoftStudy/vue3/191118_2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="191112_practice.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue2/191112_practice.html" useBuiltInWebServerPort="true">
+    <configuration name="191118_3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/ByulSoftStudy/vue3/191118_3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="component2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/vue2_component/component2.html" useBuiltInWebServerPort="true">
+    <configuration name="191118_4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/ByulSoftStudy/vue3/191118_4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="project1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-for-beginner/vue6_project/project1.html" useBuiltInWebServerPort="true">
+    <configuration name="191118.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/ByulSoftStudy/vue3/191118.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="project2_single_file_component_ex.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue-for-beginner/vue6_project/project2_single_file_component_ex.html" useBuiltInWebServerPort="true">
+    <configuration name="axios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/vue4_http/axios.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.component2.html" />
-        <item itemvalue="JavaScript Debug.191112_practice.html" />
-        <item itemvalue="JavaScript Debug.191111_vue3.html" />
-        <item itemvalue="JavaScript Debug.project2_single_file_component_ex.html" />
-        <item itemvalue="JavaScript Debug.project1.html" />
+        <item itemvalue="JavaScript Debug.axios.html" />
+        <item itemvalue="JavaScript Debug.191118.html" />
+        <item itemvalue="JavaScript Debug.191118_4.html" />
+        <item itemvalue="JavaScript Debug.191118_3.html" />
+        <item itemvalue="JavaScript Debug.191118_2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +98,10 @@
       <workItem from="1573522909312" duration="53000" />
       <workItem from="1573522975361" duration="15940000" />
       <workItem from="1573607742653" duration="2755000" />
-      <workItem from="1573620610892" duration="139000" />
+      <workItem from="1573620610892" duration="825000" />
+      <workItem from="1573621451419" duration="1176000" />
+      <workItem from="1573778592658" duration="4123000" />
+      <workItem from="1574036902758" duration="5007000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -216,6 +221,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ByulSoftStudy/vue1/project2/my-project" />
+      <path value="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz" />
+      <path value="$PROJECT_DIR$/vue1/project2/my-project" />
+      <path value="$PROJECT_DIR$/vue1/zzz1/quiz" />
+      <path value="$PROJECT_DIR$/vue7_cli/project" />
+    </ignored-roots>
     <MESSAGE value="Merge https://github.com/ABarthDew/Vue-for-beginner&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />

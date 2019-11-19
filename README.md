@@ -1,6 +1,6 @@
 # Vue-for-beginner
 
-![ex_screenshot](npm run.png)
+![ex_screenshot](npm-run.png)
 
 <모델-뷰-뷰모델 MVVM 구성요소>
 <li>모델: 도메인 영역 담당. 데이터와 비즈니스 로직 등을 표현</li>

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ByulSoftStudy/vue3/191118.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/npm run.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,7 +102,7 @@
       <workItem from="1573620610892" duration="825000" />
       <workItem from="1573621451419" duration="1176000" />
       <workItem from="1573778592658" duration="4123000" />
-      <workItem from="1574036902758" duration="7081000" />
+      <workItem from="1574036902758" duration="7146000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -219,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574065102521</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="commit">
+      <created>1574146566108</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574146566108</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

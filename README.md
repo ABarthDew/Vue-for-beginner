@@ -1,8 +1,8 @@
 # Vue-for-beginner
 
-- https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4
-
 ![ex_screenshot](npm run.png)
+
+- https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4
 
 <모델-뷰-뷰모델 MVVM 구성요소>
 <li>모델: 도메인 영역 담당. 데이터와 비즈니스 로직 등을 표현</li>

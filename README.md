@@ -134,7 +134,7 @@
   </tr>
 </table>
 
-![ex_screenshot](vueCliArchtech.png.png)
+![ex_screenshot](vueCliArchtech.png)
 
 
 ## reference

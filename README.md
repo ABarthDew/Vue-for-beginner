@@ -195,4 +195,5 @@
   - https://m.blog.naver.com/magnking/220961896609
   - https://seulcode.tistory.com/261
   - https://blog-han.tistory.com/30
+  - https://imasoftwareengineer.tistory.com/41
   - https://joshua1988.github.io/web-development/translation/essential-es6-features-for-vuejs/

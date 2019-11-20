@@ -92,6 +92,16 @@
       <li>axios 설치 : npm install axios</li>
   </tr>
   <tr>
+    <td colspan=2>
+      <li><b>***npm(Node Packaged Manager)이란 무엇인가?</b></li>
+      <dd>- 정의 : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자</dd>
+      <dd>- 자바스크립트 런타임 환경 Node.js의 기본 패키지 관리자</dd>
+      <dd>- Node.js로 만들어진 package(module)을 관리해주는 툴</dd>
+      <dd>- Node.js로 만들어진 모듈을 웹에서 받아 설치하고 관리해주는 프로그램(maven과 비슷)</dd>
+      <dd>- 이후 모듈 업데이트가 필요할 시 알려줌(버전관리가 용이함)</dd>
+      <dd>- https://m.blog.naver.com/magnking/220961896609</dd>
+  </tr>
+  <tr>
     <td>Vue CLI 폴더, 요소
     <td>
       <li>[node_modules] : npm install 명령어로 다운받은 라이브러리가 존재하는 위치</li>

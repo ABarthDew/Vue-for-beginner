@@ -110,8 +110,7 @@
     <td>로컬 스토리지, 세션 스토리지, 인덱스드 디비
   </tr>
   <tr>
-    <td>
-    <td>
+    <td colspan=2>axios = ajax(프론트엔드 - 백엔드 간 통신)
   </tr>
   <tr>
     <td>

@@ -79,6 +79,7 @@
   <tr>
     <td>Vue CLI 명령어
     <td>
+      <li><b>npm install vue-cli -g(뷰 CLI설치) / vue init webpack-simple(프로젝트 생성) / npm install(프로젝트 구동) / npm run dev(구동)</b></li>
       <li>Vue CLI 2 삭제(충돌방지) : npm r -g vue-cli</li>
       <li>Vue CLI 3 설치 : npm i -g @vue/cli</li>
       <li>버전 확인 : vue --version</li>

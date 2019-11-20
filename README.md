@@ -85,7 +85,8 @@
       <li>디렉토리 생성 : 위치 지정 후 vue create [폴더 이름]</li>
       <li>실행 : 위치 지정 후 npm run serve</li>
       <li>프로세스 종료(터미널) : ctrl + c</li>
-      <li>npm 모듈 설치(로컬): npm install</li>
+      <li>npm init : package.json을 만드는 명령어</li>
+      <li>npm 모듈 설치(로컬): npm install(package.json 파일 및 해당 종속성에 나열된 모든 모듈을 설치)</li>
       <li>npm 모듈 설치(전역): npm install -g</li>
       <li>npm 모듈 업데이트 : npm update</li>
       <li>npm 모듈 삭제 : npm uninstall</li>
@@ -93,14 +94,16 @@
   </tr>
   <tr>
     <td>
-      <b>***npm(Node Packaged Manager)이란 무엇인가?</b>
+      <b>***npm<br>(Node Packaged Manager)<br>이란 무엇인가?</b>
     <td>  
       <li>정의 : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자</li>
       <li>자바스크립트 런타임 환경 Node.js의 기본 패키지 관리자</li>
       <li>Node.js로 만들어진 package(module)을 관리해주는 툴</li>
       <li>Node.js로 만들어진 모듈을 웹에서 받아 설치하고 관리해주는 프로그램(maven과 비슷)</li>
       <li>이후 모듈 업데이트가 필요할 시 알려줌(버전관리가 용이함)</li>
+      <li>예전에는 npm을 따로 설치해야 했지만 지금은 node.js를 설치하면 내장(built in)되어 있음</li>
       <li>https://m.blog.naver.com/magnking/220961896609</li>
+      <li>http://itnovice1.blogspot.com/2019/01/js-npm.html</li>
   </tr>
   <tr>
     <td>Vue CLI 폴더, 요소

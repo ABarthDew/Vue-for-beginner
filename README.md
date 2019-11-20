@@ -93,9 +93,10 @@
       <li>axios 설치 : npm install axios</li>
   </tr>
   <tr>
-    <td>
-      <b>***npm<br>(Node Packaged Manager)<br>이란 무엇인가?</b>
-    <td>  
+    <td colspan=2><b>***npm(Node Packaged Manager)이란 무엇인가?</b>
+  </tr>
+  <tr>
+    <td colspan=2>  
       <li>정의 : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자</li>
       <li>자바스크립트 런타임 환경 Node.js의 기본 패키지 관리자</li>
       <li>Node.js로 만들어진 package(module)을 관리해주는 툴</li>

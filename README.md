@@ -135,8 +135,10 @@
   </tr>
 </table>
 
-- 각 디렉토리의 특징 및 존재의미
+---
+
 ![ex_screenshot](vueCliArchtech.png)
+- 각 디렉토리의 특징 및 존재의미
 <table>
   <tr>
     <td>File or Folder

@@ -84,6 +84,7 @@
       <li>디렉토리 생성 : 위치 지정 후 vue create [폴더 이름]</li>
       <li>실행 : 위치 지정 후 npm run serve</li>
       <li>프로세스 종료(터미널) : ctrl + c</li>
+      <li>axios 설치 : npm install axios</li>
   </tr>
   <tr>
     <td>Vue CLI 폴더, 요소
@@ -111,6 +112,9 @@
   </tr>
   <tr>
     <td colspan=2><b>***여러가지 문법, 규칙</b>
+  </tr>
+  <tr>
+    <td colspan=2><li>npm install 을 다시 해야 하는 경우 : 다른 사람의 프로젝트를 내려받았는데, package.json에 등록된 라이브러리가 node_modules에 다운로드 되지 않았을 때</li>
   </tr>
   <tr>
     <td colspan=2><li>axios = ajax(프론트엔드 - 백엔드 간 통신)</li>

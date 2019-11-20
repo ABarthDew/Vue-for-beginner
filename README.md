@@ -168,11 +168,28 @@
     <td>meaning
   </tr>
   <tr>
+    <td>public
+    <td>
+      <li>public 폴더 내 요소는 외부에서 접근가능</li>
+      <li>http://localhost:9999/nnn/logo.png 이런식으로 주소 치면 접근할 수 있음</li>
+  </tr>
+  <tr>
     <td>
     <td>
   </tr>
 </table>
 
 ## reference
+- ui framework
+  - https://vuetifyjs.com/ko/
+  - https://element.eleme.io/#/en-US/component/input
+  - https://quasar.dev/
+- reference
   - https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4
   - https://niceman.tistory.com/55
+  - https://cli.vuejs.org/config/#devserver-proxy
+  - https://www.youtube.com/watch?v=4deVCNJq3qc
+  - https://github.com/axios/axios
+  - https://joshua1988.github.io/web-development/vuejs/vue-structure/
+  - https://jamong-icetea.tistory.com/201
+  - https://m.blog.naver.com/magnking/220961896609

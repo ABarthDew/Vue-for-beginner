@@ -160,6 +160,7 @@
 ---
 
 ![ex_screenshot](vueCliArchtech.png)
+![ex_screenshot](projectArch.png)
 - 각 디렉토리의 특징 및 존재의미
 <table>
   <tr>

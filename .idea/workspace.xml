@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/vue.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +124,7 @@
       <workItem from="1573621451419" duration="1176000" />
       <workItem from="1573778592658" duration="4123000" />
       <workItem from="1574036902758" duration="9349000" />
-      <workItem from="1574210314017" duration="12178000" />
+      <workItem from="1574210314017" duration="13964000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -314,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574237713117</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="commit">
+      <created>1574237933444</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1574237933444</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

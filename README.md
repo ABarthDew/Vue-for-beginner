@@ -193,3 +193,6 @@
   - https://joshua1988.github.io/web-development/vuejs/vue-structure/
   - https://jamong-icetea.tistory.com/201
   - https://m.blog.naver.com/magnking/220961896609
+  - https://seulcode.tistory.com/261
+  - https://blog-han.tistory.com/30
+  - https://joshua1988.github.io/web-development/translation/essential-es6-features-for-vuejs/

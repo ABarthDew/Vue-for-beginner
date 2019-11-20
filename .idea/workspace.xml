@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/quiz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue1/zzz1/vue1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue8_to_do/to-do/src/components/TodoInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue8_to_do/to-do/src/components/TodoInput.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue9_FullCourseForBeginner/Learn Vue.js - Full Course for Beginners - 2019/quiz/src/components/QuestionBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue9_FullCourseForBeginner/Learn Vue.js - Full Course for Beginners - 2019/quiz/src/components/QuestionBox.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue8_to_do/to-do/package.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FrontProject" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -125,7 +125,7 @@
       <workItem from="1573621451419" duration="1176000" />
       <workItem from="1573778592658" duration="4123000" />
       <workItem from="1574036902758" duration="9349000" />
-      <workItem from="1574210314017" duration="7575000" />
+      <workItem from="1574210314017" duration="11863000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -281,7 +281,28 @@
       <option name="project" value="LOCAL" />
       <updated>1574214464934</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="commit">
+      <created>1574224040900</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1574224040900</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commit">
+      <created>1574224055643</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1574224055643</updated>
+    </task>
+    <task id="LOCAL-00025" summary="commit">
+      <created>1574224132252</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1574224132252</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

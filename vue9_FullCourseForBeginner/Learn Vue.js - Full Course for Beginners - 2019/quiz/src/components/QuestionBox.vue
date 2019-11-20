@@ -37,7 +37,9 @@
         },
         computed:{
           answers(){
-              let answers = [...this.currentQuestion.incorrect_answers];
+              let answers = [...this.currentQuestion.incorrect_answers]; //... : 객체의 변수들을 전개함(전개 연산자)
+              //뒤에 객체가 있으면 객체 안의 element를 전개함(밖으로 하나하나 다 뺌)
+              //[...this.currentQuestion.incorrect_answers] => [1번째부터 차례로,2번재,3번째,4,5,6...]
               answers.push(this.currentQuestion.correct_answer);
               return answers;
           }

@@ -9,7 +9,7 @@
 <script>
 
 
-// import { test } from 'App.vue'
+// import { test } from 'App.vue' (원래 형태)
 
 export default {
   data:function(){

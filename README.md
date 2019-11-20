@@ -83,6 +83,7 @@
       <li>버전 확인 : vue --version</li>
       <li>디렉토리 생성 : 위치 지정 후 vue create [폴더 이름]</li>
       <li>실행 : 위치 지정 후 npm run serve</li>
+      <li>프로세스 종료(터미널) : ctrl + c</li>
   </tr>
   <tr>
     <td>Vue CLI 폴더, 요소
@@ -107,6 +108,10 @@
   <tr>
     <td>브라우저 저장소의 종류
     <td>로컬 스토리지, 세션 스토리지, 인덱스드 디비
+  </tr>
+  <tr>
+    <td>
+    <td>
   </tr>
   <tr>
     <td>

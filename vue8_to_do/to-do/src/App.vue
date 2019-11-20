@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <TodoHeader></TodoHeader>
-    <TodoInput @addTodo="addTodo"></TodoInput>
-    <TodoList :propsdata="todoItems"></TodoList>
-    <TodoFooter @removeAll="clearAll"></TodoFooter>
+    <TodoInput @go="addTodo"></TodoInput>
+    <TodoList :propsdata="todoItems" @rmv="removeTodo"></TodoList>
+    <TodoFooter @del="clearAll"></TodoFooter>
   </div>
 </template>
 
@@ -13,11 +13,29 @@ import TodoInput from './components/TodoInput.vue'
 import TodoList from './components/TodoList.vue'
 import TodoFooter from './components/TodoFooter.vue'
 
+// export const test = {
+   
+// }
+
 export default {
   name: 'app',
-  data(){
+  data:function(){
     return{
-      todoItems:[]
+      todoItems : []
+    }
+  },
+  methods:{
+    addTodo:function(todoItem){
+      localStorage.setItem(todoItem, todoItem);
+      this.todoItems.push(todoItem);
+    },
+    clearAll:function(){
+      localStorage.clear();
+      this.todoItems = [];
+    },
+    removeTodo:function(todoItem, idx){
+      localStorage.removeItem(todoItem);
+      this.todoItems.splice(idx, 1);
     }
   },
   created(){
@@ -25,16 +43,6 @@ export default {
       for(var i=0; i<localStorage.length; i++){
         this.todoItems.push(localStorage.key(i));
       }
-    }
-  },
-  methods:{
-    addTodo(todoItem){
-      localStorage.setItem(todoItem, todoItem);
-      this.todoItems.push(todoItem);
-    },
-    clearAll(){
-      localStorage.clear();
-      this.todoItems = [];
     }
   },
   components: {
@@ -45,20 +53,14 @@ export default {
   }
 }
 </script>
-
+bv 
 <style>
-  body{
-    text-align: center;
-    background-color:#f6f6f6;
-  }
-  input{
-    border-style:groove;
-    width:200px;
-  }
-  button{
-    border-style:groove;
-  }
-  .shadow{
-    box-shadow: 5px 10px 10px rgba(0,0,0,0.03);
-  }
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>

@@ -1,19 +1,18 @@
 <template>
-    <div>
-        <span type="button" @click="clearTodo">[모두삭제]</span>
-    </div>
+  <button @click="deleteAll">footer - clearAll</button>
 </template>
 
+
 <script>
-    export default{
-        methods:{
-            clearTodo(){
-                this.$emit('removeAll');
-            }
-        }
+export default {
+  methods:{
+    deleteAll:function(){
+      this.$emit('del');
     }
+  }
+}
 </script>
 
-<style>
+<style scoped>
 
 </style>

@@ -85,6 +85,10 @@
       <li>디렉토리 생성 : 위치 지정 후 vue create [폴더 이름]</li>
       <li>실행 : 위치 지정 후 npm run serve</li>
       <li>프로세스 종료(터미널) : ctrl + c</li>
+      <li>npm 모듈 설치(로컬): npm install</li>
+      <li>npm 모듈 설치(전역): npm install -g</li>
+      <li>npm 모듈 업데이트 : npm update</li>
+      <li>npm 모듈 삭제 : npm uninstall</li>
       <li>axios 설치 : npm install axios</li>
   </tr>
   <tr>

@@ -114,7 +114,7 @@
     <td>
       <li>[node_modules] : npm install 명령어로 다운받은 라이브러리가 존재하는 위치</li>
       <li>[src] : .vue 파일을 비롯하여 애플리케이션이 동작하는 데 필요한 로직이 들어갈 위치</li>
-      <li>[public] - index.html : 뷰로 만든 웹 앱의 시작점(npm run deb 실행 시 로딩되는 파일)</li>
+      <li>[public] - index.html : 뷰로 만든 웹 앱의 시작점(npm run dev 실행 시 로딩되는 파일)</li>
       <li>package.json : npm 설정 파일(뷰 애플리케이션이 동작하는 데 필요한 라이브러리들을 정의하는 파일)</li>
       <li>webpack.config.js : 웹팩 설정 파일(웹팩 빌드를 위해 필요한 로직들을 정의하는 파일)</li>
   </tr>

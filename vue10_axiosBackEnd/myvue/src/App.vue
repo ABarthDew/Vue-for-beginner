@@ -36,7 +36,7 @@ export default {
 
         //웹팩, dev server / 백엔드 서버는 포트가 맞지 않음 = 실제 서비스에서는 주소가 같음
         //로컬에서 테스트 할때는 포트가 나뉘므로 오류남
-
+        // -> proxy 설정
 
 //axios 인터셉터
   //  request / response를 가로챔 

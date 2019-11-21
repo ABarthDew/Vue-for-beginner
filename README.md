@@ -1,5 +1,6 @@
 # Vue-for-beginner
 
+- 실행하기
 ![ex_screenshot](npm-run.png)
 
 <모델-뷰-뷰모델 MVVM 구성요소>
@@ -78,13 +79,35 @@
   <tr>
     <td>Vue CLI 명령어
     <td>
+      <li>
+        <b>[순서] npm install vue-cli -g(뷰 CLI설치) / vue init webpack-simple(프로젝트 생성) / npm install(프로젝트 구동) / npm run dev(구동)</b>
+      </li>
       <li>Vue CLI 2 삭제(충돌방지) : npm r -g vue-cli</li>
       <li>Vue CLI 3 설치 : npm i -g @vue/cli</li>
       <li>버전 확인 : vue --version</li>
       <li>디렉토리 생성 : 위치 지정 후 vue create [폴더 이름]</li>
       <li>실행 : 위치 지정 후 npm run serve</li>
       <li>프로세스 종료(터미널) : ctrl + c</li>
+      <li>npm init : package.json을 만드는 명령어</li>
+      <li>npm 모듈 설치(로컬): npm install(package.json 파일 및 해당 종속성에 나열된 모든 모듈을 설치)</li>
+      <li>npm 모듈 설치(전역): npm install -g</li>
+      <li>npm 모듈 업데이트 : npm update</li>
+      <li>npm 모듈 삭제 : npm uninstall</li>
       <li>axios 설치 : npm install axios</li>
+  </tr>
+  <tr>
+    <td colspan=2><b>***npm(Node Packaged Manager)이란 무엇인가?</b>
+  </tr>
+  <tr>
+    <td colspan=2>  
+      <li>정의 : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자</li>
+      <li>자바스크립트 런타임 환경 Node.js의 기본 패키지 관리자</li>
+      <li>Node.js로 만들어진 package(module)을 관리해주는 툴</li>
+      <li>Node.js로 만들어진 모듈을 웹에서 받아 설치하고 관리해주는 프로그램(maven과 비슷)</li>
+      <li>이후 모듈 업데이트가 필요할 시 알려줌(버전관리가 용이함)</li>
+      <li>예전에는 npm을 따로 설치해야 했지만 지금은 node.js를 설치하면 내장(built in)되어 있음</li>
+      <li>https://m.blog.naver.com/magnking/220961896609</li>
+      <li>http://itnovice1.blogspot.com/2019/01/js-npm.html</li>
   </tr>
   <tr>
     <td>Vue CLI 폴더, 요소
@@ -134,6 +157,44 @@
   </tr>
 </table>
 
+---
 
+![ex_screenshot](vueCliArchtech.png)
+![ex_screenshot](projectArch.png)
+- 각 디렉토리의 특징 및 존재의미
+<table>
+  <tr>
+    <td>File or Folder
+    <td>meaning
+  </tr>
+  <tr>
+    <td>public
+    <td>
+      <li>public 폴더 내 요소는 외부에서 접근가능</li>
+      <li>http://localhost:9999/nnn/logo.png 이런식으로 주소 치면 접근할 수 있음</li>
+  </tr>
+  <tr>
+    <td>
+    <td>
+  </tr>
+</table>
+
+## reference
+- ui framework
+  - https://vuetifyjs.com/ko/
+  - https://element.eleme.io/#/en-US/component/input
+  - https://quasar.dev/
 - reference
-    - https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4
+  - https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4
+  - https://niceman.tistory.com/55
+  - https://cli.vuejs.org/config/#devserver-proxy
+  - https://www.youtube.com/watch?v=4deVCNJq3qc
+  - https://github.com/axios/axios
+  - https://joshua1988.github.io/web-development/vuejs/vue-structure/
+  - https://jamong-icetea.tistory.com/201
+  - https://m.blog.naver.com/magnking/220961896609
+  - https://seulcode.tistory.com/261
+  - https://blog-han.tistory.com/30
+  - https://imasoftwareengineer.tistory.com/41
+  - https://velog.io/@n2ptune/NPM%EC%97%90%EC%84%9C-save%EC%99%80-save-dev%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90
+  - https://joshua1988.github.io/web-development/translation/essential-es6-features-for-vuejs/

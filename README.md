@@ -96,16 +96,17 @@
   
 ### Vue CLI 프로젝트 생성, 구동 순서
 ```
-npm install vue-cli -g(뷰 CLI설치) / vue init webpack-simple(프로젝트 생성) / npm install(프로젝트 구동) / npm run dev(구동)
+npm install vue-cli -g(뷰 CLI설치) / vue init webpack-simple(프로젝트 생성)
+/ npm install(프로젝트 구동) / npm run dev(구동)
 ```
 ```
 npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / vue create(cli를 이용한 탬플릿 설정)
 ```
 - vue cli 프로젝트 만들기
 1) npm init : 노드 패키지를 만든다
-  - 앤트리 포인트 : 노드 프로젝트가 처음 구동될 때 어떤 패키지를 실행시킬 것이냐
+    - 앤트리 포인트 : 노드 프로젝트가 처음 구동될 때 어떤 패키지를 실행시킬 것이냐
 2) npm install -g @vue/cli : create하기 전에 라이브러리를 집어넣는 명령어
-  - @vue/cli : npm에서 관리하는 패키지 이름
+    - @vue/cli : npm에서 관리하는 패키지 이름
   ```javascript
   "dependencies": {
       "vue": "^2.6.10"
@@ -114,7 +115,7 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   ```
 3) (웹팩, 빌드 생략)
 4) vue create : vue create는 vue cli를 이용한 탬플릿 생성하는 것
-  - 세부설정
+  - *세부설정
 ```
   (*) Babel : es6이상의 것들을 es5버전으로 변환시켜줌
   ( ) TypeScript :es6 자바스크립트 업그레이드 버전(일종의 라이브러리)
@@ -124,7 +125,8 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
     / 필요한 데이터를 뷰엑스에 등록해놓고 꺼내쓰는 식(데이터베이스 같음)
   ( ) CSS Pre-processors 
     (scss-브라우저에서 바로 읽지 못하기 때문에 css에서 변환과정 거침, sass..) : scss,sass등 변환해주는 프로그램들
-  (*) Linter / Formatter : (esLint가 linter의 종류) linter : 꼭 지키지 않아도 실행되는 개발 문법에 대한 룰을 정함(코드 컨밴션 툴)
+  (*) Linter / Formatter
+    : (esLint가 linter의 종류) linter : 꼭 지키지 않아도 실행되는 개발 문법에 대한 룰을 정함(코드 컨밴션 툴)
   ( ) Unit Testing :테스트 라이브러리
   ( ) E2E Testing :테스트 라이브러리
   ```

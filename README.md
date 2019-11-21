@@ -93,8 +93,10 @@
       <li>axios 설치 : npm install axios</li>
   </tr>
   </table>
+
+---
   
-### Vue CLI 프로젝트 생성, 구동 순서
+### *Vue CLI 프로젝트 생성, 구동 순서
 ```
 npm install vue-cli -g(뷰 CLI설치) / vue init webpack-simple(프로젝트 생성)
 / npm install(프로젝트 구동) / npm run dev(구동)
@@ -115,7 +117,7 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   ```
 3) (웹팩, 빌드 생략)
 4) vue create : vue create는 vue cli를 이용한 탬플릿 생성하는 것
-  - *세부설정
+  - 세부설정
 ```
   (*) Babel : es6이상의 것들을 es5버전으로 변환시켜줌
   ( ) TypeScript :es6 자바스크립트 업그레이드 버전(일종의 라이브러리)
@@ -159,6 +161,8 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
 #cli는 웹팩을 타게 되어 있음
   public 폴더와 내용물에 있는 것만이 유일하게 웹팩에 영향을 받지 않음
 ```
+
+---
   
   <table>
   <tr>

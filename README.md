@@ -246,4 +246,6 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   - https://blog-han.tistory.com/30
   - https://imasoftwareengineer.tistory.com/41
   - https://velog.io/@n2ptune/NPM%EC%97%90%EC%84%9C-save%EC%99%80-save-dev%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90
+  - https://eastflag.co.kr/frontend/frontend-webpack/npm_webpack/
+  - https://kr.vuejs.org/v2/style-guide/#%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%8C%8C%EC%9D%BC-%EB%A7%A4%EC%9A%B0-%EC%B6%94%EC%B2%9C%ED%95%A8
   - https://joshua1988.github.io/web-development/translation/essential-es6-features-for-vuejs/

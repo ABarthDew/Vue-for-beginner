@@ -92,10 +92,75 @@
       <li>npm 모듈 삭제 : npm uninstall</li>
       <li>axios 설치 : npm install axios</li>
   </tr>
-  </table>
+  <tr>
+    <td colspan=2><b>***npm(Node Packaged Manager)이란 무엇인가?</b>
+  </tr>
+  <tr>
+    <td colspan=2>  
+      <li>정의 : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자</li>
+      <li>자바스크립트 런타임 환경 Node.js의 기본 패키지 관리자</li>
+      <li>Node.js로 만들어진 package(module)을 관리해주는 툴</li>
+      <li>Node.js로 만들어진 모듈을 웹에서 받아 설치하고 관리해주는 프로그램(maven과 비슷)</li>
+      <li>이후 모듈 업데이트가 필요할 시 알려줌(버전관리가 용이함)</li>
+      <li>예전에는 npm을 따로 설치해야 했지만 지금은 node.js를 설치하면 내장(built in)되어 있음</li>
+      <li>https://m.blog.naver.com/magnking/220961896609</li>
+      <li>http://itnovice1.blogspot.com/2019/01/js-npm.html</li>
+  </tr>
+  <tr>
+    <td>Vue CLI 폴더, 요소
+    <td>
+      <li>[node_modules] : npm install 명령어로 다운받은 라이브러리가 존재하는 위치</li>
+      <li>[src] : .vue 파일을 비롯하여 애플리케이션이 동작하는 데 필요한 로직이 들어갈 위치</li>
+      <li>[public] - index.html : 뷰로 만든 웹 앱의 시작점(npm run dev 실행 시 로딩되는 파일)</li>
+      ㄴpublic 폴더 내 요소는 외부에서 접근가능<br>
+      ㄴhttp://localhost:9999/nnn/logo.png 이런식으로 주소 치면 접근할 수 있음<br>
+      <li>package.json : npm 설정 파일(뷰 애플리케이션이 동작하는 데 필요한 라이브러리들을 정의하는 파일)</li>
+      <li>webpack.config.js : 웹팩 설정 파일(웹팩 빌드를 위해 필요한 로직들을 정의하는 파일)</li>
+  </tr>
+  <tr>
+    <td colspan=2><b>***package.json 구조</b>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <li>name, description, version, author : 프로젝트 정보</li>
+      <li>scripts{dev, build} : npm 실행 명령어</li>
+      <li>dependencies{}, devDependencies{} : 뷰, 웹팩 관련 라이브러리</li>
+      -프로젝트 정보를 담고 있는 설정 파일 <br>
+      -npm 명령어 및 부로 애플리케이션을 제작하는 데 필요한 라이브러리 정보들을 포함 <br>
+  </tr>
+  <tr>
+    <td>브라우저 저장소의 종류
+    <td>로컬 스토리지, 세션 스토리지, 인덱스드 디비
+  </tr>
+  <tr>
+    <td colspan=2><b>***여러가지 문법, 규칙</b>
+  </tr>
+  <tr>
+    <td colspan=2><li>npm install 을 다시 해야 하는 경우 : 다른 사람의 프로젝트를 내려받았는데, package.json에 등록된 라이브러리가 node_modules에 다운로드 되지 않았을 때</li>
+  </tr>
+  <tr>
+    <td colspan=2><li>axios = ajax(프론트엔드 - 백엔드 간 통신)</li>
+  </tr>
+  <tr>
+    <td colspan=2><li>_ : lodash의 변수명 (ex) _.shuffle(answers); </li>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <li>... : 객체의 변수들을 전개함(전개 연산자)</li>
+      ㄴ뒤에 객체가 있으면 객체 안의 element를 전개함(밖으로 하나하나 다 뺌)<br>
+      (ex) [...this.currentQuestion.incorrect_answers] => [1번째부터 차례로,2번재,3번째,4,5,6...]
+  </tr>
+  <tr>
+    <td>
+    <td>
+  </tr>
+</table>
 
 ---
   
+![ex_screenshot](vueCliArchtech.png)
+![ex_screenshot](projectArch.png)
+
 ### *Vue CLI 프로젝트 생성, 구동 순서
 ```
 npm install vue-cli -g(뷰 CLI설치) / vue init webpack-simple(프로젝트 생성)
@@ -163,91 +228,6 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
 ```
 
 ---
-  
-  <table>
-  <tr>
-    <td colspan=2><b>***npm(Node Packaged Manager)이란 무엇인가?</b>
-  </tr>
-  <tr>
-    <td colspan=2>  
-      <li>정의 : 자바스크립트 프로그래밍 언어를 위한 패키지 관리자</li>
-      <li>자바스크립트 런타임 환경 Node.js의 기본 패키지 관리자</li>
-      <li>Node.js로 만들어진 package(module)을 관리해주는 툴</li>
-      <li>Node.js로 만들어진 모듈을 웹에서 받아 설치하고 관리해주는 프로그램(maven과 비슷)</li>
-      <li>이후 모듈 업데이트가 필요할 시 알려줌(버전관리가 용이함)</li>
-      <li>예전에는 npm을 따로 설치해야 했지만 지금은 node.js를 설치하면 내장(built in)되어 있음</li>
-      <li>https://m.blog.naver.com/magnking/220961896609</li>
-      <li>http://itnovice1.blogspot.com/2019/01/js-npm.html</li>
-  </tr>
-  <tr>
-    <td>Vue CLI 폴더, 요소
-    <td>
-      <li>[node_modules] : npm install 명령어로 다운받은 라이브러리가 존재하는 위치</li>
-      <li>[src] : .vue 파일을 비롯하여 애플리케이션이 동작하는 데 필요한 로직이 들어갈 위치</li>
-      <li>[public] - index.html : 뷰로 만든 웹 앱의 시작점(npm run dev 실행 시 로딩되는 파일)</li>
-      <li>package.json : npm 설정 파일(뷰 애플리케이션이 동작하는 데 필요한 라이브러리들을 정의하는 파일)</li>
-      <li>webpack.config.js : 웹팩 설정 파일(웹팩 빌드를 위해 필요한 로직들을 정의하는 파일)</li>
-  </tr>
-  <tr>
-    <td colspan=2><b>***package.json 구조</b>
-  </tr>
-  <tr>
-    <td colspan=2>
-      <li>name, description, version, author : 프로젝트 정보</li>
-      <li>scripts{dev, build} : npm 실행 명령어</li>
-      <li>dependencies{}, devDependencies{} : 뷰, 웹팩 관련 라이브러리</li>
-      -프로젝트 정보를 담고 있는 설정 파일 <br>
-      -npm 명령어 및 부로 애플리케이션을 제작하는 데 필요한 라이브러리 정보들을 포함 <br>
-  </tr>
-  <tr>
-    <td>브라우저 저장소의 종류
-    <td>로컬 스토리지, 세션 스토리지, 인덱스드 디비
-  </tr>
-  <tr>
-    <td colspan=2><b>***여러가지 문법, 규칙</b>
-  </tr>
-  <tr>
-    <td colspan=2><li>npm install 을 다시 해야 하는 경우 : 다른 사람의 프로젝트를 내려받았는데, package.json에 등록된 라이브러리가 node_modules에 다운로드 되지 않았을 때</li>
-  </tr>
-  <tr>
-    <td colspan=2><li>axios = ajax(프론트엔드 - 백엔드 간 통신)</li>
-  </tr>
-  <tr>
-    <td colspan=2><li>_ : lodash의 변수명 (ex) _.shuffle(answers); </li>
-  </tr>
-  <tr>
-    <td colspan=2>
-      <li>... : 객체의 변수들을 전개함(전개 연산자)</li>
-      ㄴ뒤에 객체가 있으면 객체 안의 element를 전개함(밖으로 하나하나 다 뺌)<br>
-      (ex) [...this.currentQuestion.incorrect_answers] => [1번째부터 차례로,2번재,3번째,4,5,6...]
-  </tr>
-  <tr>
-    <td>
-    <td>
-  </tr>
-</table>
-
----
-
-![ex_screenshot](vueCliArchtech.png)
-![ex_screenshot](projectArch.png)
-- 각 디렉토리의 특징 및 존재의미
-<table>
-  <tr>
-    <td>File or Folder
-    <td>meaning
-  </tr>
-  <tr>
-    <td>public
-    <td>
-      <li>public 폴더 내 요소는 외부에서 접근가능</li>
-      <li>http://localhost:9999/nnn/logo.png 이런식으로 주소 치면 접근할 수 있음</li>
-  </tr>
-  <tr>
-    <td>
-    <td>
-  </tr>
-</table>
 
 ## reference
 - ui framework

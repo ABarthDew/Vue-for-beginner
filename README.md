@@ -1,6 +1,6 @@
 # Vue-for-beginner
 
-- 실행하기
+- IDE로 실행하기
 ![ex_screenshot](npm-run.png)
 
 ## 모델-뷰-뷰모델 MVVM 구성요소
@@ -227,7 +227,6 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   public 폴더와 내용물에 있는 것만이 유일하게 웹팩에 영향을 받지 않음
 ```
 
----
 
 ## reference
 - ui framework

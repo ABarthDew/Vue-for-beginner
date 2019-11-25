@@ -227,6 +227,14 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   public 폴더와 내용물에 있는 것만이 유일하게 웹팩에 영향을 받지 않음
 ```
 
+### *Vuex
+![ex_screenshot](vuex1.png)
+![ex_screenshot](vuex2.png)
+- action -> mutation -> state
+- action :
+- mutation :
+- state : 
+
 
 ## reference
 - ui framework

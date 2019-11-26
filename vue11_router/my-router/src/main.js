@@ -46,7 +46,7 @@ const router = new VueRouter({
   routes:rout
 });
 
-Vue.use(VueRouter);
+Vue.use(VueRouter); //VueRouter(라이브러리)에서 제공하는 커스텀 인스턴스가 있으므로, 그걸 쓰겠다는 것 <view-router>
 
 new Vue({
   render: h => h(App),

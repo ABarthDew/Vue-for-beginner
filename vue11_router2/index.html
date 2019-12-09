@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://unpkg.com/vue"></script>
+  <title>Document</title>
+</head>
+<body>
+  <my-component></my-component>
+
+  <script>
+    Vue.component('my-component', {
+      props:{
+        propA : Number,
+        propB : [String, Number],
+        propC : {
+          type:String,
+          required : true
+        },
+        propD : {
+          type:Number,
+          default:100
+        },
+        propE : {
+          type:Object,
+          default:function(){
+            return {message : 'hello'}
+          }
+        },
+        propF : {
+          validator:function(value){
+            return ['success', 'warning', 'danger'].indexOf(value) !== -`
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

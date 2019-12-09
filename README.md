@@ -240,11 +240,11 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
 ---
 
 ## reference
-- ui framework
+- `ui framework`
   - https://vuetifyjs.com/ko/
   - https://element.eleme.io/#/en-US/component/input
   - https://quasar.dev/
-- reference
+- `reference`
   - https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4
   - https://niceman.tistory.com/55
   - https://cli.vuejs.org/config/#devserver-proxy
@@ -261,3 +261,37 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   - https://kr.vuejs.org/v2/style-guide/#%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%8C%8C%EC%9D%BC-%EB%A7%A4%EC%9A%B0-%EC%B6%94%EC%B2%9C%ED%95%A8
   - https://router.vuejs.org/kr/guide/advanced/navigation-guards.html
   - https://joshua1988.github.io/web-development/translation/essential-es6-features-for-vuejs/
+  - https://cli.vuejs.org/config/#devserver-proxy
+  - https://www.youtube.com/watch?v=4deVCNJq3qc
+  - https://github.com/axios/axios
+  - https://www.reimaginer.me/entry/spa-and-spa-routing
+  - https://beomy.tistory.com/72?category=646688
+  - https://beomy.tistory.com/70
+  - https://skout90.github.io/2018/01/20/Vue/4.%EC%9D%B4%EB%B2%A4%ED%8A%B8/
+  - https://element.eleme.io/#/en-US/component/time-picker
+  - https://jsfiddle.net/adamwathan/hfs34ye4/
+  - https://router.vuejs.org/kr/guide/essentials/history-mode.html#%EC%84%9C%EB%B2%84-%EC%84%A4%EC%A0%95-%EC%98%88%EC%A0%9C
+  - https://jeong-pro.tistory.com/151
+  - https://jeong-pro.tistory.com/181
+  - https://gmlwjd9405.github.io/2019/01/28/http-header-types.html
+  - https://www.zerocho.com/category/HTTP/post/5b4c4e3efc5052001b4f519b
+  - https://joshua1988.github.io/vue-camp/vuex/concept.html#%EB%B7%B0%EC%97%91%EC%8A%A4-%EA%B5%AC%EC%A1%B0%EB%8F%84
+  - https://vuex.vuejs.org/kr/
+  - https://joshua1988.github.io/web-development/vuejs/vuex-start/
+  - https://joshua1988.github.io/es6-online-book/guide.html
+  - https://velog.io/@ki_blank/JavaScript-%ED%99%94%EC%82%B4%ED%91%9C-%ED%95%A8%EC%88%98Arrow-function
+  - https://opentutorials.org/course/743/6548
+  - https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array
+  - https://codepen.io/mygumi/pen/gXZXBr
+  - http://labs.brandi.co.kr/2018/12/13/kangww.html
+  - https://library.gabia.com/contents/infrahosting/3864
+  - https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/
+  - https://miiingo.tistory.com/87
+  - https://ithub.tistory.com/249
+  
+  
+  
+  
+  
+  
+  

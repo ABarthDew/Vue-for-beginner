@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/dmsales/workspace/aaaaaaa/elementUi" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -63,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.vue1.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="191118.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/ByulSoftStudy/vue3/191118.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -99,9 +100,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.vue1.html" />
         <item itemvalue="JavaScript Debug.index2.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.axios.html" />
         <item itemvalue="JavaScript Debug.191118.html" />
       </list>
@@ -132,7 +133,7 @@
       <workItem from="1574299352018" duration="20567000" />
       <workItem from="1574644267967" duration="12020000" />
       <workItem from="1575426416117" duration="4406000" />
-      <workItem from="1575850639806" duration="1565000" />
+      <workItem from="1575850639806" duration="4070000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -421,7 +422,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575855249459</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="slot added">
+      <created>1575866437372</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1575866437372</updated>
+    </task>
+    <task id="LOCAL-00043" summary="slot added">
+      <created>1575866442094</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1575866442094</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

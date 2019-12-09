@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="vue router">
+    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/src/App.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +132,7 @@
       <workItem from="1574299352018" duration="20567000" />
       <workItem from="1574644267967" duration="12020000" />
       <workItem from="1575426416117" duration="4406000" />
-      <workItem from="1575850639806" duration="914000" />
+      <workItem from="1575850639806" duration="1565000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -416,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574758458454</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="slot added">
+      <created>1575855249459</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1575855249459</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,6 +451,7 @@
     <MESSAGE value="Merge https://github.com/ABarthDew/Vue-for-beginner&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="commit" />
     <MESSAGE value="vue router" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue router" />
+    <MESSAGE value="slot added" />
+    <option name="LAST_COMMIT_MESSAGE" value="slot added" />
   </component>
 </project>

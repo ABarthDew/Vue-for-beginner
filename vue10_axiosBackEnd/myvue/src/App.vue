@@ -25,8 +25,8 @@ export default {
   methods:{
     onClick() {
       // backtick(`)
-      // axios.get(`http://localhost:7001/test/test/${this.msg}`) 
-      axios.get(`/api/test/${this.msg}`) 
+      // axios.get(`http://localhost:7001/test/test/${this.msg}`)
+      axios.get(`/api/test/${this.msg}`)
         //CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
         //브라우저에서 동일한 주소가 아니면 차단함(호출 자체는 문제없음)
         //실서버에 올릴 때는 상대적으로 문제가 없음(프론트엔드-정적리소스는 웹서버에 올리고 백엔드는 웹서버와 연동된 was서버에 올리게 됨)

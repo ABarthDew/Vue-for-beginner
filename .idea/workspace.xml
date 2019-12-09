@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
+    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="vue router">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue11_router/my-router/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue11_router/my-router/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue2_component/component6.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue2_component/component6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue10_axiosBackEnd/myvue/src/App.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,18 +35,21 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue9_FullCourseForBeginner\zzz1" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue9_FullCourseForBeginner" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner" />
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://192.168.2.216:9090/dmsales/locker/admin-front" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1\day" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1\day\public" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue8_to_do\to-do\src" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue8_to_do\to-do\src\components" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue9_FullCourseForBeginner\zzz1" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue9_FullCourseForBeginner" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner" />
     </key>
   </component>
@@ -129,7 +132,9 @@
       <workItem from="1574210314017" duration="13964000" />
       <workItem from="1574298374763" duration="309000" />
       <workItem from="1574299352018" duration="20567000" />
-      <workItem from="1574644267967" duration="11854000" />
+      <workItem from="1574644267967" duration="12020000" />
+      <workItem from="1575426416117" duration="4406000" />
+      <workItem from="1575850639806" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -404,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574412544189</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="vue router">
+      <created>1574758458454</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1574758458454</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

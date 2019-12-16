@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue4/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,14 +133,7 @@
       <workItem from="1574644267967" duration="12020000" />
       <workItem from="1575426416117" duration="4406000" />
       <workItem from="1575850639806" duration="6060000" />
-      <workItem from="1576461896065" duration="17151000" />
-    </task>
-    <task id="LOCAL-00002" summary="commit">
-      <created>1573524551230</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1573524551230</updated>
+      <workItem from="1576461896065" duration="17186000" />
     </task>
     <task id="LOCAL-00003" summary="commit">
       <created>1573524823697</created>
@@ -479,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576486251639</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="commit">
+      <created>1576486759114</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1576486759114</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

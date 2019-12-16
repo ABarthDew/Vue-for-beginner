@@ -1,17 +1,45 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    Parent counter : {{getCounter}}<br>
+    Parent counter : {{getMsg}}<br>
+    <button @click="addCounter">+</button>
+    <button @click="redCounter">-</button>
+
+    <child :msg="counter"></child>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Child from './components/Child.vue'
+
+import { mapGetters } from 'vuex'
+import { mapMutations } from 'vuex'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    'child':Child
+  },
+  methods:{
+    // addCounter:function(){
+    //   // this.$store.state.counter++;
+    //   this.$store.commit('addCounter', 10);
+    // },
+    redCounter:function(){
+      this.$store.state.counter--;
+    },
+    ...mapMutations({
+      addCounter:'addCounter'
+    }),
+    addCounter(){
+      this.$store.dispatch('delayFewMinutes');
+    }
+  },
+  computed: {
+    ...mapGetters([
+            'getCounter',
+            'getMsg'
+    ])
   }
 }
 </script>

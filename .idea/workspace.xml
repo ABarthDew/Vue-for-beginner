@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue4/vuex-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue4/vuex-test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue4/vuex-test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue4/vuex-test/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue4/vuex-test/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue4/vuex-test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue4/vuex-test/src/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +137,7 @@
       <workItem from="1574644267967" duration="12020000" />
       <workItem from="1575426416117" duration="4406000" />
       <workItem from="1575850639806" duration="6060000" />
-      <workItem from="1576461896065" duration="11819000" />
+      <workItem from="1576461896065" duration="16626000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -457,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575880701222</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="commit">
+      <created>1576481248427</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1576481248427</updated>
+    </task>
+    <task id="LOCAL-00048" summary="commit">
+      <created>1576481257097</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1576481257097</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

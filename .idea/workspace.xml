@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/dmsales/workspace/aaaaaaa/elementUi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ByulSoftStudy/vue4/vuex1" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -36,19 +36,19 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="http://192.168.2.216:9090/dmsales/locker/admin-front" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1\day" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1\day\public" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue8_to_do\to-do\src" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue8_to_do\to-do\src\components" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4\vuex1" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue9_FullCourseForBeginner\zzz1" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue9_FullCourseForBeginner" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4\vuex1" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1\day" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1\day\public" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue8_to_do\to-do\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,20 +63,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="191118.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/ByulSoftStudy/vue3/191118.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.191216_computed2.html">
+    <configuration name="191216_computed2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="axios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/vue4_http/axios.html" useBuiltInWebServerPort="true">
+    <configuration name="191216_computed3_watch.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed3_watch.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue1/test1/index2.html" useBuiltInWebServerPort="true">
+    <configuration name="191216_computed4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed4.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="191216_computed5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed5.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/ByulSoftStudy/vue1/test1/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="vue1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue1/zzz1/vue1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.npm">
@@ -91,19 +91,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.191118.html" />
-      <item itemvalue="JavaScript Debug.axios.html" />
       <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.index2.html" />
-      <item itemvalue="JavaScript Debug.vue1.html" />
+      <item itemvalue="JavaScript Debug.191216_computed2.html" />
+      <item itemvalue="JavaScript Debug.191216_computed3_watch.html" />
+      <item itemvalue="JavaScript Debug.191216_computed4.html" />
+      <item itemvalue="JavaScript Debug.191216_computed5.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.191216_computed2.html" />
+        <item itemvalue="JavaScript Debug.191216_computed3_watch.html" />
+        <item itemvalue="JavaScript Debug.191216_computed4.html" />
+        <item itemvalue="JavaScript Debug.191216_computed5.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.vue1.html" />
-        <item itemvalue="JavaScript Debug.index2.html" />
-        <item itemvalue="JavaScript Debug.axios.html" />
-        <item itemvalue="JavaScript Debug.191118.html" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,8 @@
       <workItem from="1574299352018" duration="20567000" />
       <workItem from="1574644267967" duration="12020000" />
       <workItem from="1575426416117" duration="4406000" />
-      <workItem from="1575850639806" duration="5991000" />
+      <workItem from="1575850639806" duration="6060000" />
+      <workItem from="1576461896065" duration="11819000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1573524488332</created>
@@ -449,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575868951954</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="commit">
+      <created>1575880701222</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1575880701222</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

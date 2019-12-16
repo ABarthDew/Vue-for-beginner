@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+
+1. getter
+- computed의 reverseMessage 프로퍼티가 정의될 때 내부적으로는 Object.defineProperty를 통해 정의됨
+- 이 때, 익명함수가 getter로 설정됨
+- reverseMessage를 함수가 아닌 일반객체 처럼 사용할 수 있는 점, 호출 될때만 계산이 이루어지고 계산결과가 캐싱되는 특성이 생김
+- 모두 getter의 특성 때문(methods와의 차이를 유발하는 지점이기도 함)
+- 하지만, 바로 이 점 때문에 값이 변하게 되어도 캐싱때문에 변경된 값을 인지하지 못하는 단점이 생김
+
+2. 반응형
+- vue에선 getter함수 내에 속한 프로퍼티의 변경여부를 추척하는 특별한 장치가 있음
+- 위 예시에선 message를 감시하고 있다가, message의 값이 변경되면 reverseMessage를 다시 계산함
+- 결국, computed는 사용하기 편하고, 자동으로 값을 변경하고 캐싱해주는 "반응형 getter"임
+
+
+//computed와 watch
+    <div id="app">
+        <p>원본 메세지 : {{message}}</p>
+        <p>역순으로 표시한 메세지 : {{reverseMessage}}</p>
+        <input type="text" v-model="reMessage">
+    </div>
+
+<script>
+    new Vue({
+        el:'#app',
+        data:function(){
+          return{
+              message: '안녕하세요',
+              reMessage: ''
+          }
+        },
+        computed:{ //반응형 getter
+            reverseMessage:function(){ //computed에 정의하는 익명함수는 반드시 값을 리턴하도록 작성되어야 함
+                return this.message.split('').reverse().join('');
+            }
+        },
+        watch:{
+            reMessage:function(newVal, oldVal){ //message에 할당된 익명함수가 콜백함수 역할을 함
+                //message프로퍼티가 변경되면 변경된 값을 콜백함수의 첫번째 인자로 전달하고, 이전 값을 두번째 인자로 전달하여 실행함
+                //computed가 새 프로퍼티를 생성하고 그것의 getter로 익명함수를 설정되는 것과는 달리 watch는 아무 프로퍼티도 생성하지 않고, 단순히 콜백함수로의 역할만 함
+                //watch에 명시된 프로퍼티는 감시할 대상을 의미할 뿐임
+                console.log(this.reMessage);
+            }
+        }
+    });
+</script>
+
+//watch
+- 변경을 감시한다는 점 때문에 computed와 혼동할 수 있으나, watch는 단순하고 이해하기 쉬움
+- watch 는 vue 인스턴스의 특정 프로퍼티가 변경될 때 지정한 콜백함수가 실행되는 기능
+
+//어떻게 사용할 것인가?
+- data에 할당된 값들 사이의 종속관계를 자동으로 세팅하고자 할 때 : computed
+- 특정 프로퍼티의 변경시점에 특정 액션을 취하고자 할 때 : watch
+- computed : 종속관계가 복잡할 수록 재계산 시점을 예상하기 힘들기 때문에 종속관계를 값으로 계산된 결과를 리턴하는 것 외의 사이드 이펙트가 일어나는 코드를 지양함
+- computed로 구현 가능한 것이라면 watch가 아닌 computed로 구형하는 것이 대게의 경우 옳음
+</body>
+</html>

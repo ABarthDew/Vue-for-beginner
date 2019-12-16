@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{computedCountReturn}}</p>
+        <p>{{computedCountNotReturn}}</p>
+        <button @click="count++">1씩 증가</button>
+    </div>
+
+<script>
+    new Vue({
+        el:'#app',
+        data(){
+            return{
+                count: 0
+            }
+        },
+        computed:{
+            computedCountReturn(){
+                return 'computedCountReturn - ' + this.count;
+            },
+            computedCountNotReturn(){
+                let text = 'computedCountNotReturn - ' + this.count;
+                return text;
+            }
+        }
+    });
+    //이 결과가 가능한 이유는?
+    //computed 속성의 함수들이 count에 종속성(dependency)을 가지고 있기 때문임
+    //(count에 의존하고 있다)
+</script>
+
+    <div id="app2">
+        <input type="text" v-model="person.age">
+        <p>{{kind}}</p>
+        <p>{{kind2()}}</p>
+    </div>
+
+<script>
+    new Vue({
+        el:'#app2',
+        data(){
+            return {
+                person: {
+                    age: '',
+                    country: 'brazil'
+                },
+            }
+        },
+        computed:{
+            kind:function(){
+                if(this.person.age > 18){
+                    console.log('c');
+                    return 'adult';
+                }else{
+                    console.log('c');
+                    return 'minor';
+                }
+            }
+        },
+        methods:{
+            kind2:function(){
+                if(this.person.age > 18){
+                    console.log('m');
+                    return 'adult';
+                }else{
+                    console.log('m');
+                    return 'minor';
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

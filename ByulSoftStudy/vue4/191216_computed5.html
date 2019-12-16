@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="app">
+        <p> computed : {{dateC}}</p>
+        <p> methods : {{dateM()}}</p>
+        <p> computed : {{dateC}}</p>
+        <p> methods : {{dateM()}}</p>
+        <p> computed : {{dateC}}</p>
+        <p> methods : {{dateM()}}</p>
+        <p> computed : {{dateC}}</p>
+        <p> methods : {{dateM()}}</p>
+        <p> computed : {{dateC}}</p>
+        <p> methods : {{dateM()}}</p>
+        <p> computed : {{dateC}}</p>
+        <p> methods : {{dateM()}}</p>
+    </div>
+
+<script>
+    new Vue({
+        el:'#app',
+        data () {
+            return {
+                name: 'bactoria',
+                num:0
+            }
+        },
+        computed: {
+            dateC () {
+                setTimeout(function(){
+                    console.log(1);
+                }, 100);
+            }
+        },
+        methods: {
+            dateM() {
+                setTimeout(function(){
+                    console.log(1);
+                }, 100);
+            }
+        }
+    });
+</script>
+//dateC는 한 번만 콘솔에 찍히지만 dateM은 6번 찍힘을 알 수 있음
+</body>
+</html>

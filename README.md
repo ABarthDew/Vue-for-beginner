@@ -296,6 +296,8 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   - https://boycoding.tistory.com/38
   - https://boycoding.tistory.com/37?category=915176
   - https://joshua1988.github.io/vue-camp/es6/async-await.html#%EA%B8%B0%EB%B3%B8-%EC%98%88%EC%A0%9C
+  - https://okky.kr/article/442679
+  - https://programmingsummaries.tistory.com/325
   
   
   

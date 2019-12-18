@@ -3,9 +3,11 @@
     Parent counter : {{getCounter}}<br>
     Parent counter : {{getMsg}}<br>
     <button @click="addCounter">+</button>
-    <button @click="redCounter">-</button>
+    <button @click="redCounter">-</button><br>
+    <button @click="asyncIncrement({ by: 50, duration: 2000 })">Increment</button>
+    <button @click="asyncDecrement({ by: 50, duratiojjn: 1000 })">Decrement</button>
 
-    <child :msg="counter"></child>
+    <child></child>
   </div>
 </template>
 
@@ -14,6 +16,7 @@ import Child from './components/Child.vue'
 
 import { mapGetters } from 'vuex'
 import { mapMutations } from 'vuex'
+import { mapActions } from 'vuex'
 
 export default {
   name: 'app',
@@ -33,7 +36,11 @@ export default {
     }),
     addCounter(){
       this.$store.dispatch('delayFewMinutes');
-    }
+    },
+    ...mapActions([
+            'asyncIncrement',
+            'asyncDecrement'
+    ])
   },
   computed: {
     ...mapGetters([

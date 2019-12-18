@@ -288,6 +288,16 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   - https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/
   - https://miiingo.tistory.com/87
   - https://ithub.tistory.com/249
+  - https://kr.vuejs.org/v2/guide/state-management.html
+  - https://router.vuejs.org/kr/guide/essentials/navigation.html
+  - https://velopert.com/category/dev-log/tech-log/vue-js
+  - https://lessipe.com/course/30
+  - https://joshua1988.github.io/web-development/vuejs/vuex-getters-mutations/
+  - https://boycoding.tistory.com/38
+  - https://boycoding.tistory.com/37?category=915176
+  - https://joshua1988.github.io/vue-camp/es6/async-await.html#%EA%B8%B0%EB%B3%B8-%EC%98%88%EC%A0%9C
+  
+  
   
   
   

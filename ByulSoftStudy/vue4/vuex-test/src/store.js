@@ -33,6 +33,17 @@ export const store = new Vuex.Store({
             return setTimeout(function () {
                 context.commit('addCounter');
             }, 1000);
+        },
+        asyncIncrement:function(context, payload){
+            return setTimeout(function(){
+                context.commit('addCounter', payload.by);
+            }, payload.duration);
+        },
+        asyncDecrement:function(context, payload){
+            return setTimeout(function(){
+                context.commit('addCounter', payload.by);
+                console.log(payload.by);
+            }, payload.duration);
         }
     }
 });

@@ -4,12 +4,6 @@
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/service/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/service/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/service/loginAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/service/loginAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/mutation_types.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/mutation_types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,14 +135,7 @@
       <workItem from="1575426416117" duration="4406000" />
       <workItem from="1575850639806" duration="6060000" />
       <workItem from="1576461896065" duration="25281000" />
-      <workItem from="1576718034088" duration="17302000" />
-    </task>
-    <task id="LOCAL-00010" summary="commit">
-      <created>1573620197913</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1573620197913</updated>
+      <workItem from="1576718034088" duration="18426000" />
     </task>
     <task id="LOCAL-00011" summary="commit">
       <created>1573620477981</created>
@@ -486,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576742265801</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="commit">
+      <created>1576743496592</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1576743496592</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

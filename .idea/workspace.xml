@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/components/Login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/service/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/service/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/service/loginAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/service/loginAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/mutation_types.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/mutation_types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/vue-login-demo-master/src/vuex/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +44,11 @@
       <recent name="http://192.168.2.216:9090/dmsales/locker/admin-front" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\login" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\store\modules" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\components" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4\vuex1" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1\day" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4\vuex1" />
@@ -141,21 +141,7 @@
       <workItem from="1575426416117" duration="4406000" />
       <workItem from="1575850639806" duration="6060000" />
       <workItem from="1576461896065" duration="25281000" />
-      <workItem from="1576718034088" duration="16104000" />
-    </task>
-    <task id="LOCAL-00008" summary="commit">
-      <created>1573620000404</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1573620000404</updated>
-    </task>
-    <task id="LOCAL-00009" summary="commit">
-      <created>1573620105293</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1573620105293</updated>
+      <workItem from="1576718034088" duration="17302000" />
     </task>
     <task id="LOCAL-00010" summary="commit">
       <created>1573620197913</created>
@@ -486,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576723230823</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="commit">
+      <created>1576742260059</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1576742260059</updated>
+    </task>
+    <task id="LOCAL-00058" summary="commit">
+      <created>1576742265801</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1576742265801</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -239,6 +239,11 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
 
 ---
 
+- `import Home from '@/components/Home.vue'` 에서 @는 `src 경로에서 시작한다`를 뜻함
+
+
+---
+
 ## reference
 - `ui framework`
   - https://vuetifyjs.com/ko/

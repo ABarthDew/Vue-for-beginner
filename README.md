@@ -240,7 +240,17 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
 ---
 
 - `import Home from '@/components/Home.vue'` 에서 @는 `src 경로에서 시작한다`를 뜻함
-
+- `main.js`는 뷰 프로젝트의 중앙통제소 격임
+- `$(달러)표시` : new Vue({}) 에 정의된 것들은 $표시를 쓴 후 사용가능
+```javascript
+  new Vue({
+    router,
+    store,
+    render: h => h(App)
+  }).$mount('#app')
+  //(ex) store 쓸 때 $store
+```
+- `{}` : 객체형태 (ex. {mapGetters} : mapGetters라는 객체
 
 ---
 

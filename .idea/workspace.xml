@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/components/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/views/Login.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ByulSoftStudy/vue5/test/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ByulSoftStudy/vue5/login" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -37,11 +44,11 @@
       <recent name="http://192.168.2.216:9090/dmsales/locker/admin-front" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\store\modules" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\components" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4\vuex1" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1\day" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1\day\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4\vuex1" />
@@ -134,21 +141,7 @@
       <workItem from="1575426416117" duration="4406000" />
       <workItem from="1575850639806" duration="6060000" />
       <workItem from="1576461896065" duration="25281000" />
-      <workItem from="1576718034088" duration="4098000" />
-    </task>
-    <task id="LOCAL-00006" summary="commit">
-      <created>1573545680978</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1573545680978</updated>
-    </task>
-    <task id="LOCAL-00007" summary="commit">
-      <created>1573619387672</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1573619387672</updated>
+      <workItem from="1576718034088" duration="16104000" />
     </task>
     <task id="LOCAL-00008" summary="commit">
       <created>1573620000404</created>
@@ -479,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576658594387</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="commit">
+      <created>1576723221772</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1576723221772</updated>
+    </task>
+    <task id="LOCAL-00056" summary="commit">
+      <created>1576723230823</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1576723230823</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

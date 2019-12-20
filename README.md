@@ -313,6 +313,7 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   - https://joshua1988.github.io/vue-camp/es6/async-await.html#%EA%B8%B0%EB%B3%B8-%EC%98%88%EC%A0%9C
   - https://okky.kr/article/442679
   - https://programmingsummaries.tistory.com/325
+  - `vue-loader` https://vue-loader-v14.vuejs.org/kr/
   
   
   

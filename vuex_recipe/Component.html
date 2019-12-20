@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="app">
+        <product></product>
+    </div>
+<script>
+
+    //컴포넌트 정의
+    Vue.component('product', { //첫번째 인자:태그명, 두번째 인자:설정값 json
+        props:['image', 'title', 'description', 'avatar'], //외부에서 attribute 값으로 입력받을 항목들
+        template: `
+            <img :src="image">
+            <p>{{title}}</p>
+            <p>{{description}}</p>
+            <img :src="avatar">
+        ` //es6부터 추가된 template string 기능을 사용해 태그를 넣을 자리를 만듬
+    });
+
+    new Vue({
+        el:'#app',
+        data(){
+            return{
+
+            }
+        },
+        methods:{
+
+        }
+    });
+</script>
+</body>
+</html>

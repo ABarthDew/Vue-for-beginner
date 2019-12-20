@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ByulSoftStudy/vue5/login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vuex_recipe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -37,18 +37,18 @@
       <recent name="http://192.168.2.216:9090/dmsales/locker/admin-front" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\login" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\store\modules" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\components" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4\vuex1" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test\src" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test\src\components" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4\vuex1" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue1\project1" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue9_FullCourseForBeginner\zzz1" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vue9_FullCourseForBeginner" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,20 +63,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.191216_computed2.html">
+  <component name="RunManager" selected="JavaScript Debug.AttributeBinding.html">
     <configuration name="191216_computed2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="191216_computed3_watch.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed3_watch.html" useBuiltInWebServerPort="true">
+    <configuration name="AttributeBinding.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/vuex_recipe/AttributeBinding.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="191216_computed4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed4.html" useBuiltInWebServerPort="true">
+    <configuration name="DataBindingAndVueDevtools.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/vuex_recipe/DataBindingAndVueDevtools.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="191216_computed5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed5.html" useBuiltInWebServerPort="true">
+    <configuration name="List.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/vuex_recipe/List.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/Vue-for-beginner/ByulSoftStudy/vue1/test1/index.html" useBuiltInWebServerPort="true">
+    <configuration name="MethodsAndEventHandling.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/vuex_recipe/MethodsAndEventHandling.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.npm">
@@ -91,19 +91,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.191216_computed2.html" />
-      <item itemvalue="JavaScript Debug.191216_computed3_watch.html" />
-      <item itemvalue="JavaScript Debug.191216_computed4.html" />
-      <item itemvalue="JavaScript Debug.191216_computed5.html" />
+      <item itemvalue="JavaScript Debug.DataBindingAndVueDevtools.html" />
+      <item itemvalue="JavaScript Debug.List.html" />
+      <item itemvalue="JavaScript Debug.AttributeBinding.html" />
+      <item itemvalue="JavaScript Debug.MethodsAndEventHandling.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.AttributeBinding.html" />
+        <item itemvalue="JavaScript Debug.MethodsAndEventHandling.html" />
+        <item itemvalue="JavaScript Debug.List.html" />
+        <item itemvalue="JavaScript Debug.DataBindingAndVueDevtools.html" />
         <item itemvalue="JavaScript Debug.191216_computed2.html" />
-        <item itemvalue="JavaScript Debug.191216_computed3_watch.html" />
-        <item itemvalue="JavaScript Debug.191216_computed4.html" />
-        <item itemvalue="JavaScript Debug.191216_computed5.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -134,14 +134,7 @@
       <workItem from="1575426416117" duration="4406000" />
       <workItem from="1575850639806" duration="6060000" />
       <workItem from="1576461896065" duration="25281000" />
-      <workItem from="1576718034088" duration="19599000" />
-    </task>
-    <task id="LOCAL-00012" summary="commit">
-      <created>1573620513072</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1573620513072</updated>
+      <workItem from="1576718034088" duration="37684000" />
     </task>
     <task id="LOCAL-00013" summary="commit">
       <created>1573620527800</created>
@@ -479,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576744529726</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="commit">
+      <created>1576746067699</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1576746067699</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

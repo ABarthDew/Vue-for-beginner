@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vue-for-beginner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vue-for-beginner.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuex_recipe/vue-router/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vue-router/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuex_recipe/vue-router/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vue-router/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuex_recipe/vue-router/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vue-router/src/views/About.vue" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +28,14 @@
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vuex_recipe" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -36,32 +45,20 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="http://192.168.2.216:9090/dmsales/locker/admin-front" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\login" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\store\modules" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\auswo\Downloads\Vue-for-beginner\vuex_recipe" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test\src" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test\src\components" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue4\vuex1" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\auswo\Downloads\Vue-for-beginner\vuex_recipe" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\login" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\store\modules" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.AttributeBinding.html">
     <configuration name="191216_computed2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed2.html" useBuiltInWebServerPort="true">
@@ -107,6 +104,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,6 +144,7 @@
       <workItem from="1575850639806" duration="6060000" />
       <workItem from="1576461896065" duration="25281000" />
       <workItem from="1576718034088" duration="37684000" />
+      <workItem from="1577017334548" duration="2924000" />
     </task>
     <task id="LOCAL-00013" summary="commit">
       <created>1573620527800</created>

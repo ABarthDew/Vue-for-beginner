@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vue-for-beginner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vue-for-beginner.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuex_recipe/vue-router/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vue-router/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuex_recipe/vue-router/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vue-router/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuex_recipe/vue-router/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vue-router/src/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuex_recipe/vue-router/src/views/Child.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vue-router/src/views/Child.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vuex_recipe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -60,20 +59,20 @@
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\store\modules" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.AttributeBinding.html">
-    <configuration name="191216_computed2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/ByulSoftStudy/vue4/191216_computed2.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="AttributeBinding.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/vuex_recipe/AttributeBinding.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="DataBindingAndVueDevtools.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/vuex_recipe/DataBindingAndVueDevtools.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="List.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/vuex_recipe/List.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="MethodsAndEventHandling.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Vue-for-beginner/vuex_recipe/MethodsAndEventHandling.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Vue-for-beginner/webpack/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Vue-for-beginner/webpack/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.npm">
@@ -88,19 +87,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.191216_computed2.html" />
-      <item itemvalue="JavaScript Debug.DataBindingAndVueDevtools.html" />
       <item itemvalue="JavaScript Debug.List.html" />
       <item itemvalue="JavaScript Debug.AttributeBinding.html" />
       <item itemvalue="JavaScript Debug.MethodsAndEventHandling.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.AttributeBinding.html" />
         <item itemvalue="JavaScript Debug.MethodsAndEventHandling.html" />
         <item itemvalue="JavaScript Debug.List.html" />
-        <item itemvalue="JavaScript Debug.DataBindingAndVueDevtools.html" />
-        <item itemvalue="JavaScript Debug.191216_computed2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -144,28 +143,9 @@
       <workItem from="1575850639806" duration="6060000" />
       <workItem from="1576461896065" duration="25281000" />
       <workItem from="1576718034088" duration="37684000" />
-      <workItem from="1577017334548" duration="2924000" />
-    </task>
-    <task id="LOCAL-00013" summary="commit">
-      <created>1573620527800</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1573620527800</updated>
-    </task>
-    <task id="LOCAL-00014" summary="commit">
-      <created>1573620651814</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1573620651814</updated>
-    </task>
-    <task id="LOCAL-00015" summary="commit">
-      <created>1574065045165</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1574065045165</updated>
+      <workItem from="1577017334548" duration="5531000" />
+      <workItem from="1577029453495" duration="2078000" />
+      <workItem from="1577031604466" duration="6773000" />
     </task>
     <task id="LOCAL-00016" summary="commit">
       <created>1574065102521</created>
@@ -489,7 +469,28 @@
       <option name="project" value="LOCAL" />
       <updated>1576746067699</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="recipe added">
+      <created>1577020661385</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1577020661386</updated>
+    </task>
+    <task id="LOCAL-00063" summary="recipe added">
+      <created>1577020834379</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1577020834379</updated>
+    </task>
+    <task id="LOCAL-00064" summary="recipe added">
+      <created>1577020915705</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1577020915705</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,16 +521,17 @@
     <MESSAGE value="vue router" />
     <MESSAGE value="slot added" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="recipe added" />
+    <option name="LAST_COMMIT_MESSAGE" value="recipe added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1577020648914">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1577020911292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020648914" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1577020740097">
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020911292" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1577020918149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020740097" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020918149" />
   </component>
 </project>

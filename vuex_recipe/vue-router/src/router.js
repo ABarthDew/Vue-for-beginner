@@ -30,7 +30,7 @@ export default new Router({
     {
       path: '/', //주소창에 쓰여지는 주소
       name: 'home',
-      component: Home //컴포넌트(방법2)
+      component: Home //컴포넌트(방법1)
       //import시킨 값을 그대로 가지고 오기
     },
     {
@@ -59,10 +59,10 @@ export default new Router({
 
       //path: '/users' 로만 남겨놓아도, app.vue의
       //     <v-list-tile router :to="{
-      // name:'users',
-      //     params:{
-      //   id: 4321, // : /users 메뉴를 클릭하면 4321이란 값을 받음
-      //       name: 'hoza'  // : /users 메뉴를 클릭하면 이 값도 확인할 수 있음
+      //        name:'users',
+      //        params:{
+      //          id: 4321, // : /users 메뉴를 클릭하면 4321이란 값을 받음
+      //          name: 'hoza'  // : /users 메뉴를 클릭하면 이 값도 확인할 수 있음
       // }
       // }">
       // 때문에 4321, hoza라는 값이 화면에 확인됨

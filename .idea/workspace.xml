@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuex_recipe/vue-router/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vue-router/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuex_recipe/vue-router/src/views/Child.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vue-router/src/views/Child.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuex_recipe/vuex-project-for-share/src/components/Users/SignUp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vuex-project-for-share/src/components/Users/SignUp.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,14 +144,7 @@
       <workItem from="1576718034088" duration="37684000" />
       <workItem from="1577017334548" duration="5531000" />
       <workItem from="1577029453495" duration="2078000" />
-      <workItem from="1577031604466" duration="6773000" />
-    </task>
-    <task id="LOCAL-00016" summary="commit">
-      <created>1574065102521</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1574065102521</updated>
+      <workItem from="1577031604466" duration="7868000" />
     </task>
     <task id="LOCAL-00017" summary="commit">
       <created>1574146566108</created>
@@ -490,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577020915705</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="recipe added">
+      <created>1577041765184</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1577041765185</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,13 +524,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="recipe added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1577020911292">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1577041760743">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020911292" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1577020918149">
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577041760743" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1577041768407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020918149" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577041768407" />
   </component>
 </project>

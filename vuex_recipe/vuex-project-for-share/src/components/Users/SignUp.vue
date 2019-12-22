@@ -57,6 +57,7 @@ import { mapMutations, mapActions } from 'vuex'
       //   EventBus.$emit('signUp', userObj)
       //   this.clearForm()
       // },
+      
       // ...mapMutations(['addUsers']), //*****중복이라 잠시 주석처리
       signUp() {
         let userObj = {

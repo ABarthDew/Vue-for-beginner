@@ -522,4 +522,14 @@
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1577020648914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020648914" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1577020740097">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020740097" />
+  </component>
 </project>

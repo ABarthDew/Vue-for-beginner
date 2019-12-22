@@ -6,8 +6,15 @@
       app
     >
       <v-list dense>
+        <!--        라우터에 주소 밀어넣기-->
+        <!--        name은 router.js내의 컴포넌트 name-->
+        <v-list-tile @click="$router.push({name:'home'})">
+          <!-- 객체 형태로 선언 <v-list-tile @click="$router.push({path:'/'})">-->
+          <!--  값만 선언 <v-list-tile @click="$router.push('/')">-->
+          <!--  라우터 링크 <v-list-tile router :to="{name:'home'}" exact>-->
 
-        <v-list-tile :to="{name:'home'}">
+          <!-- 라우터를 통해 값을 넘길 수 있으므로, 객체 형태로 선언하는 게 더 유익-->
+          <!-- <v-list-tile @click="$router.push({path:'/', query:{}, params:{}})">-->
           <v-list-tile-action>
             <i class="fas fa-home"></i>
           </v-list-tile-action>
@@ -16,7 +23,11 @@
           </v-list-tile-content>
         </v-list-tile>
 
-        <v-list-tile :to="{name:'about'}">
+        <!--        메뉴시작-->
+        <!--        <v-list-tile @click="$router.push({name:'about'})">-->
+        <v-list-tile router :to="{name:'about'}" exact>
+          <!-- exact : /about에 /가 포함되는 것으로 인식하므로, 정확한 비교를 위해 추가하는 속성값-->
+          <!--      (active 활성화되는 문제)-->
           <v-list-tile-action>
             <i class="fas fa-user"></i>
           </v-list-tile-action>
@@ -24,6 +35,7 @@
             <v-list-tile-title>About</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
+        <!--        메뉴 끝-->
 
 <!--        //*메뉴 추가-->
 <!--        <v-list-tile :to="{name:'users'}">-->
@@ -68,6 +80,7 @@
     </v-toolbar>
     <v-content>
 
+      <!-- router-view : 라우터가 주소를 찾아 컴포넌트를 뿌려주기 위한 장소를 선언-->
       <router-view></router-view>
 
     </v-content>

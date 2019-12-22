@@ -1,8 +1,17 @@
+//router를 초기세팅으로 선택했을 때 생성되는 기본 js 파일
+
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 
 Vue.use(Router)
+
+
+//상수값 선언
+const About = () => {
+  return import(/* webpackChunkName: "about" */ './views/About.vue')
+}
+
 
 //*새 컴포넌트 생성
 const Users = () => import('./views/Users.vue');
@@ -11,21 +20,37 @@ const Child = () => import('./views/Child.vue');
 const ChildDetail = () => import('./views/Child-detail.vue');
 const ChildEdit = () => import('./views/Child-edit.vue');
 
+//export default : 아래 내용을 내보낼 때 쓰는 약속
+// export default new Router({}) : 새로운 라우터를 만들어 그 안의 객체 내용을 내보내겠다
 export default new Router({
   mode: 'history',
   //*라우터의 기본 모드는 해쉬모드임. 해쉬태그 뒤쪽에 있는 것을 주소로 인식.
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
+      path: '/', //주소창에 쓰여지는 주소
       name: 'home',
-      component: Home
+      component: Home //컴포넌트(방법2)
+      //import시킨 값을 그대로 가지고 오기
     },
     {
       path: '/about',
       name: 'about',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      // => vue.js를 이용해 만든 페이지는 spa이기 때문에, 한 페이지에서 모든 작업이 일어남
+      // 전체 컴포넌트를 불러온 다음, 라우터가 주소창에 입력된 값에 따라 유저에게 하나씩 보여주는 원리
+      // 때문에, "전체 컴포넌트를 불러오는 과정(라우터가 모든 컴포넌트를 쥐고 있는 과정)"이 오래걸림
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      // webpackChunkName : 주소창에 어떤 값이 입력됐을 때, 이 값에 해당하는 컴포넌트 내용만을 불러오겠다 = lazy-loaded 개념
     },
+    //더 빨리 불러오는 방법(방법2)
+    // => 상수를 선언한 다음 그것을 불러옴(상수는 상단에 선언)
+      //*방법1, 2의 차이 : 속도면에서 차이남
+        //방법1 : js파일이 로딩될 때, 웹 페이지에 들어와서 라우터가 동작할 때, 라우터에 연결되어있는 모든 컴포넌트를 불러와서 쥐고 있다가 주소창에 맞는 화면만 보여줌
+        // => 모두 로딩 후, 보여지는 화면만 다르게 동작
+        //방법2 : 상수를 선언한 후 그 값을 입력해주면 주소와 연결되어있는 컴포넌트 하나만 불러와서 화면에 뿌려줌
     {
       //*users 추가
       path: '/users/:id', //파라미터 전달 : 주소창에 값을 넣어 전달하는 방법(1)

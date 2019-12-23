@@ -260,7 +260,7 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
 ```vue
   <component v-bind:is="currentView">
   <!-- vm.currentView가 변경되면 컴포넌트가 변경됩니다! -->
-</component>
+  </component>
 ```
 
 ---

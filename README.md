@@ -254,6 +254,17 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
 
 ---
 
+## #여러가지 표현식들
+- component 태그는 아무 컴포넌트를 의미할 수 있으며, :is 예약어를 통해 구분함
+  - https://kr.vuejs.org/v2/guide/components.html#%EB%8F%99%EC%A0%81-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8
+```vue
+  <component v-bind:is="currentView">
+  <!-- vm.currentView가 변경되면 컴포넌트가 변경됩니다! -->
+</component>
+```
+
+---
+
 ## reference
 - `ui framework`
   - https://vuetifyjs.com/ko/

@@ -325,7 +325,7 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
   - https://okky.kr/article/442679
   - https://programmingsummaries.tistory.com/325
   - `vue-loader` https://vue-loader-v14.vuejs.org/kr/
-  
+  - https://kr.vuejs.org/v2/api/index.html
   
   
   

@@ -1,7 +1,7 @@
 # mutation과 action
 
-### *mutation
+### `* mutation`
 > ![ex_screenshot](mutation.png)
 
-### *action
+### `* action`
 > ![ex_screenshot](action.png)

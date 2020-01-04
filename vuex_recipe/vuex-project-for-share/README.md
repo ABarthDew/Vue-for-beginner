@@ -1,7 +1,7 @@
 # mutation과 action
 
 ### *mutation
-```
+```markdown
 ![ex_screenshot](mutation.png)
 ```
 

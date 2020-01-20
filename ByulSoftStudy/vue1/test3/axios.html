@@ -9,7 +9,7 @@
 <body>
     <div id="app">
         <div>{{greet}}</div>
-        <button @click="getData">button</button>
+        <button @click="getData2">button</button>
     </div>
     <script>
         new Vue({
@@ -28,6 +28,17 @@
                         console.log(resp.data);
                     });
                 }
+            },
+            getData2() {
+                axios({
+                    method:'get',
+                    url:'https://raw.githubusercontent.com/joshua1988/doit-vuejs/master/data/demo.json'
+                }).then(resp => {
+                    // console.log(resp);
+                    this.greet = resp.data.fe1;
+                    console.log(resp.data.fe1);
+                    //getData와 getData2의 차이:화살표 함수의 scope가 다르기 때문에
+                });
             }
         });
 

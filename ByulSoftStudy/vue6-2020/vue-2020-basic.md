@@ -85,12 +85,28 @@
 </head>
 <body>
   <div id="app">
-    <span v-bind:title="msg">마우스를 올려보세요</span>
+    <input type="text" v-model="msg">
+    <br>
+    <span v-if="!flag">flag가 참일 때 보임 / 화면에 그리지 않음</span>
+    <span v-else-if="msg.length > 1">msg 조건</span>
+    <span v-else>flag가 거짓일 때 보임</span>
+    <br>
   </div>
   
   <script>
-  
+    new Vue({
+      el:'#app',
+      data:function(){
+        return {
+          msg: 'hello world',
+          flag :false,
+          array: [1,2,3,4,5],
+        };
+      },
+    });
   </script>
 </body>
 </html>
 ```
+- 결과
+![ex_screenshot](vue1.png)

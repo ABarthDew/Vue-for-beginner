@@ -43,4 +43,33 @@
   </script>
 </body>
 </html>
+
+//👌hello world가 찍힘
+```
+
+```html<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <div id="app">
+    <span v-bind:title="msg">마우스를 올려보세요</span>
+  </div>
+  
+  <script>
+    new Vue({
+      el:'#app',
+      data:function(){
+        return {
+          msg: 'hello world',
+        };
+      },
+    });
+  </script>  
+</body>
+</html>
+
+//👌'마우스를 올려보세요'라고 출력된 곳에 마우스를 대면 말풍선으로 msg의 내용이 출력됨
 ```

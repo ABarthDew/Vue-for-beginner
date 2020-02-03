@@ -6,11 +6,11 @@
   - https://goodgid.github.io/Server-Side-Rendering-and-Client-Side-Rendering/
   - https://asfirstalways.tistory.com/244
   
-`# view` : 보여지는 화면
-`# model` : 내부적으로 사용하는 데이터, 데이터를 다루는 로직
+- `view` : 보여지는 화면
+- `model` : 내부적으로 사용하는 데이터, 데이터를 다루는 로직
   - 데이터 변화가 일어나면, 서로 업데이트 해 주는 것 : `양방향 데이터 바인딩`
   
-`# React`
+- `React`
   - virtual dom : 페이지를 거슬러 올라가며 변경하는 것이 아니라, 한 부분에서 변화가 일어나면 그 부분만 바꿈
   - 단방향 데이터 바인딩 : 부모 -> 자식 단계로만 데이터 바인딩이 일어나서 구조 파악에 용이
     - 자식 컴포넌트에서 변화가 일어나면 emit으로 부모 컴포넌트 요소 변경

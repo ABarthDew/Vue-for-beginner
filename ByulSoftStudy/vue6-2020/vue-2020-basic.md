@@ -45,9 +45,8 @@
   </script>
 </body>
 </html>
-
-//👌hello world가 찍힘
 ```
+> //👌hello world가 찍힘
 
 ### #2
 ```html
@@ -74,9 +73,8 @@
   </script>  
 </body>
 </html>
-
-//👌'마우스를 올려보세요'라고 출력된 곳에 마우스를 대면 말풍선으로 msg의 내용이 출력됨
 ```
+> //👌'마우스를 올려보세요'라고 출력된 곳에 마우스를 대면 말풍선으로 msg의 내용이 출력됨
 
 ### #3
 ```html
@@ -113,7 +111,7 @@
 </html>
 ```
 - 결과
-![ex_screenshot](vue1.PNG)
+> ![ex_screenshot](vue1.PNG)
 
 ### #4
 ```html

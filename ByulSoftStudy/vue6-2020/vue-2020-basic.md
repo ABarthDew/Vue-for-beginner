@@ -140,9 +140,8 @@
   </script>
 </body>
 </html>
-
-// 👌v-show는 일단 화면에 그려짐 / display:none 라고 출력됨
 ```
+> // 👌v-show는 일단 화면에 그려짐 / display:none 라고 출력됨
 
 ### #5 
 ```html
@@ -172,7 +171,7 @@
 </html>
 ```
 - 결과
-![ex_screenshot](vue2.PNG)
+> ![ex_screenshot](vue2.PNG)
 
 ### #6
 ```html
@@ -207,9 +206,10 @@
       },
     }); 
   </script>
-  
-  //console에 각각 dd, helloworld가 출력됨
-```
+</body>
+</html>
+```  
+> //console에 각각 dd, helloworld가 출력됨
 
 ### #7
 ```html
@@ -251,7 +251,7 @@
 </html>
 ```
 - 결과
-![ex_screenshot](vue3.PNG)
+> ![ex_screenshot](vue3.PNG)
 - `computed`
   - 함수 아님
   - 값을 리턴하기 때문임
@@ -302,7 +302,7 @@
 </html>
 ```
 - 결과
-![ex_screenshot](vue4.PNG)
+> ![ex_screenshot](vue4.PNG)
 - `watch`
   - 코드 상, input의 값을 바꿀 때마다 'changed'가 출력된 alert가 뜸
   - this.flag = true 와 같이 데이터를 변경할 수 있음

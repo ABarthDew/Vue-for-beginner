@@ -47,7 +47,8 @@
 //👌hello world가 찍힘
 ```
 
-```html<html lang="en">
+```html
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -74,5 +75,6 @@
 //👌'마우스를 올려보세요'라고 출력된 곳에 마우스를 대면 말풍선으로 msg의 내용이 출력됨
 ```
 
-```ｈｔｍｌ
+```html
+ｓｄｄｄｄｄｄｄ
 ```

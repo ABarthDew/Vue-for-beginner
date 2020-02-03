@@ -1,3 +1,5 @@
+## #들어가기 전에
+
 `ssr(서버 사이드 랜더링)` 
 - 랜더링이란? : 어떠한 웹 접속시, 그 페이지를 화면에 그려주는 것
 - 서버사이드 랜더링 : 요청 시 마다, 새로고침이 일어나며 서버에 새로운 페이지에 대한 요청을 하는 방식이다
@@ -15,4 +17,30 @@
     
 ---
 
-    
+## #실습
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <div id="app">
+    {{ msg }}
+  </div>
+  
+  <script>
+    new Vue({
+      el: '#app',
+      data: function(){
+        return {
+          msg: 'hello world'
+        }
+      }
+    });
+  </script>
+</body>
+</html>
+```

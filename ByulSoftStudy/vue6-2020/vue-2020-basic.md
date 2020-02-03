@@ -76,5 +76,21 @@
 ```
 
 ```html
-ｓｄｄｄｄｄｄｄ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <div id="app">
+    <span v-bind:title="msg">마우스를 올려보세요</span>
+  </div>
+  
+  <script>
+  
+  </script>
+</body>
+</html>
 ```

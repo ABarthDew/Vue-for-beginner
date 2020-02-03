@@ -227,6 +227,8 @@
     <input type="text" v-model="msg">
     <br> 
     {{ msg2 }}
+    <br>
+    <span v-if="!flag">flag가 참일 때 보임 / 화면에 그리지 않음</span>
   </div>
   
   <script>
@@ -235,6 +237,7 @@
       data:function(){
         return {
           msg: 'hello world',
+          flag :false,
         };
       },
       computed: { 
@@ -308,4 +311,49 @@
   - this.flag = true 와 같이 데이터를 변경할 수 있음
   - 인스턴스 내부에서 데이터를 건드리는 작업을 함
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <div id="app">
+    {{ msg }} <br>
+    <input type="text" v-model="msg2">{{comp}}<br>
+    {{ msg2 }}
+  </div>
+  
+  <script>
+    new Vue({
+      el:'#app',
+      data : function(){
+        return {
+          msg: 'hello',
+          msg2:'ss',
+        }
+      },
+      computed: {
+        comp:function(){
+          return this.msg + '!!';
+        }
+      },
+      watch:{
+        msg2:function(){
+          this.msg = this.msg + '1';
+          alert(this.msg2);
+        }
+      }
+    }); 
+  </script>
+</body>
+</html>
+```
+- 결과
+> ![ex_screenshot](vue5.PNG)
+- `watch`
+  - watch의 특성 상 변하기 전의 값과(v-model="msg2"), 그 값을 변형할 수 있는 장치(input)가 있어야 함
+  
 

@@ -1,7 +1,7 @@
 # Vue-for-beginner
 
 - IDE로 실행하기
-  ![ex_screenshot](npm-run.png)
+  ![ex_screenshot](images/npm-run.png)
 
 ## 모델-뷰-뷰모델 MVVM 구성요소
 
@@ -160,8 +160,8 @@
 
 ---
 
-![ex_screenshot](vueCliArchtech.png)
-![ex_screenshot](projectArch.png)
+![ex_screenshot](images/vueCliArchtech.png)
+![ex_screenshot](images/projectArch.png)
 
 ### *Vue CLI 프로젝트 생성, 구동 순서
 
@@ -244,8 +244,8 @@ npm init(노드 패키지 생성) / npm install -g @vue/cli(의존성 주입) / 
 
 ### *Vuex
 
-![ex_screenshot](vuex1.png)
-![ex_screenshot](vuex2.png)
+![ex_screenshot](images/vuex1.png)
+![ex_screenshot](images/vuex2.png)
 
 - action -> mutation -> state
 - action :

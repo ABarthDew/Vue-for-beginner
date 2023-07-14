@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="">
+    <list default="true" id="8bba8c9a-a5ac-4901-ab50-1fa34abbb3ba" name="Default Changelist" comment="code indent: 4 -&gt; 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuex_recipe/vuex-project-for-share/src/components/Users/SignUp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuex_recipe/vuex-project-for-share/src/components/Users/SignUp.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-run.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/npm-run.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectArch.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/projectArch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCliArchtech.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/vueCliArchtech.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuex1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/vuex1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuex2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/vuex2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,35 +35,33 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vuex_recipe" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="OPEN_URL_DIALOG">
-      <recent name="http://192.168.2.216:9090/dmsales/locker/admin-front" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\auswo\Downloads\Vue-for-beginner\vuex_recipe" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test\src" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test\src\components" />
-      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\auswo\Downloads\Vue-for-beginner\vuex_recipe" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\login" />
       <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\ByulSoftStudy\vue5\test\src\store\modules" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://192.168.2.216:9090/dmsales/locker/admin-front" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\test\Vue-for-beginner\images" />
+      <recent name="C:\Users\auswo\Downloads\Vue-for-beginner\vuex_recipe" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test\src" />
+      <recent name="C:\Users\Jonah\jonahswork\Vue-for-beginner\vuex_recipe\vue-router-test\src\components" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
@@ -145,13 +151,6 @@
       <workItem from="1577017334548" duration="5531000" />
       <workItem from="1577029453495" duration="2078000" />
       <workItem from="1577031604466" duration="7868000" />
-    </task>
-    <task id="LOCAL-00017" summary="commit">
-      <created>1574146566108</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1574146566108</updated>
     </task>
     <task id="LOCAL-00018" summary="commit">
       <created>1574146625670</created>
@@ -489,20 +488,22 @@
       <option name="project" value="LOCAL" />
       <updated>1577041765185</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="code indent: 4 -&gt; 2">
+      <created>1689313622387</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1689313622388</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -521,18 +522,7 @@
     <MESSAGE value="slot added" />
     <MESSAGE value="commit" />
     <MESSAGE value="recipe added" />
-    <option name="LAST_COMMIT_MESSAGE" value="recipe added" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1577041760743">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020911292" />
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577041760743" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1577041768407">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1600.118.1600.860@0.0.1366.728" timestamp="1577020918149" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577041768407" />
+    <MESSAGE value="code indent: 4 -&gt; 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="code indent: 4 -&gt; 2" />
   </component>
 </project>

@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://unpkg.com/vue"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
 <!--뷰 컴포넌트 통신-->
 <!--vue.js는 컴포넌트로 화면을 구성하므로 같은 웹 페이지라도 데이터를 공유할 수 없음-->
 <!--왜냐하면, 컴포먼트 마다 자체적으로 고유한 유효 범위(scope)를 가지기 때문-->
 <!--때문에, 다른 컴포넌트의 값을 직접적으로 참조할 수 없음-->
-    <div id="app">
-        <my-component1></my-component1>
-        <my-component2></my-component2>
-    </div>
+<div id="app">
+  <my-component1></my-component1>
+  <my-component2></my-component2>
+</div>
 
 <script>
-    //첫번째 컴포넌트 내용
-    var cmp1 = {
-        template:'<div>첫 번째 지역 컴포넌트 : {{cmp1Data}}</div>',
-        data:function(){
-            return{
-                cmp1Data:100
-            }
-        }
-    };
+  //첫번째 컴포넌트 내용
+  var cmp1 = {
+    template: '<div>첫 번째 지역 컴포넌트 : {{cmp1Data}}</div>',
+    data: function () {
+      return {
+        cmp1Data: 100
+      }
+    }
+  };
 
-    //두 번째 컴포넌트 내용
-    var cmp2 = {
-        template:'<div>두 번째 지역 컴포넌트 : {{cmp2Data}}</div>',
-        data:function(){
-           return {
-               // cmp2Data:cmp1.data().cmp1Data //??
-               cmp2Data:cmp1.data.cmp1Data
-           }
-        }
-    };
-    //my-component2에서 my-component1의 값을 직접 참조할 수 없음
+  //두 번째 컴포넌트 내용
+  var cmp2 = {
+    template: '<div>두 번째 지역 컴포넌트 : {{cmp2Data}}</div>',
+    data: function () {
+      return {
+        // cmp2Data:cmp1.data().cmp1Data //??
+        cmp2Data: cmp1.data.cmp1Data
+      }
+    }
+  };
+  //my-component2에서 my-component1의 값을 직접 참조할 수 없음
 
-    new Vue({
-        el:'#app',
-        components:{
-            'my-component1':cmp1,
-            'my-component2':cmp2
-        }
-    });
+  new Vue({
+    el: '#app',
+    components: {
+      'my-component1': cmp1,
+      'my-component2': cmp2
+    }
+  });
 </script>
 </body>
 </html>

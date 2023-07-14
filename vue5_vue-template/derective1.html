@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+*뷰 디렉티브 : html 태그 안에 v- 접두사를 가지는 모든 속성들을 의미
+<!--    <a v-if="flag">ddddd</a>-->
+flag값이 참이면 텍스트가 화면에 표시됨
+
+-디렉티브는 화면의 요소를 더 쉽게 조작하기 위해 사용하는 기능
+-뷰의 데이터 값이 변경되었을 때 화면의 요소들이 리액티브하게 반응하여 변경된 데이터 값에 따라 갱신됨
+
+// v-if : 지정한 뷰 데이터 값의 참, 거짓 여부에 따라 해당 html 태그를 화면에 표시하거나 하지 않음
+// v-for : 지정한 뷰 데이터의 개수만큼 해당 html 태그를 반복 출력
+// v-show : v-if와 유사하게 데이터의 진위 여부에 따라 해당 html 태그를 화면에 표시하거나 하지 않음
+ㄴ다만, v-if는 해당 태그를 완전히 삭제, v-show는 css 효과만 display:none; 으로 줌
+// v-bind : html태그의 기본 속성과 뷰 데이터 속성을 연결
+// v-on : 화면 요소의 이벤트를 감지하여 처리할 때 사용 ex. v-on:click(클릭 이벤트 감지, 특정 메서드 실행)
+// v-model : form에서 주로 사용되는 속성
+ㄴ폼에 입력한 값을 뷰 인스턴스의 데이터와 즉시 동기화
+ㄴ화면에 입력된 값을 저장, 서버에 보내거나 watch와 같은 고급 속성을 이용해 추가 로직 수행
+ㄴinput, select, textarea 태그에만 사용 가능
+
+<div id="app">
+  <a v-if="flag">11111</a>
+  <ul>
+    <li v-for="sys in systems">{{sys}}</li>
+  </ul>
+  <p v-show="flag">{{uid}}</p>
+  <button v-on:click="pop">경고창</button>
+</div>
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      flag: true,
+      systems: ['a', 'b', 'c'],
+      uid: 10
+    },
+    methods: {
+      pop: function () {
+        return alert('alert');
+      }
+    }
+  });
+</script>
+</body>
+</html>

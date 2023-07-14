@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="app">
+  <child-component v-on:show-log="printText"></child-component>
+  <child-component v-on:show-log="printText2"></child-component>
+  <child-component v-on:show-log="message"></child-component>
+</div>
+
+<script>
+  Vue.component('child-component', {
+    template: '<button v-on:click="showLog">show</button>',
+    methods: {
+      showLog: function () {
+        this.$emit('show-log');
+      }
+    }
+  });
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'hello vue passed from parent component'
+    },
+    methods: {
+      printText: function () {
+        console.log("received an event!");
+      },
+      printText2: function () {
+        console.log("received an event22222222");
+      }
+    }
+  });
+</script>
+
+<hr>
+
+<div id="app2">
+  <component v-on:myshow="mymethod"></component>
+</div>
+<script>
+  Vue.component('component', {
+    template: '<button v-on:click="show">bbbb</button>',
+    methods: {
+      show: function () {
+        this.$emit("myshow");
+      }
+    }
+  });
+  new Vue({
+    el: '#app2',
+    methods: {
+      mymethod: function () {
+        console.log('aaaaaaa');
+      }
+    }
+  });
+</script>
+
+</body>
+</html>

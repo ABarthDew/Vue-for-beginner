@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+<p id="tableData">
+
+</p>
+
+<script>
+  var txt = '';
+
+  function getData(text) {
+    txt = text;
+    console.log("step 1 : " + txt);
+
+    return new Promise(function (resolve, reject) {
+      resolve();
+    });
+
+  }
+
+  function getData2(text) {
+    txt = text;
+    console.log("step 2 : " + txt);
+  }
+
+  $(function () {
+    // getData()의 실행이 끝나면 호출되는 then()
+    getData('text1').then(function (result) {
+
+      if (txt == 'text2') {
+        console.log("step 3 : " + txt);
+      }
+    });
+
+    getData2('text2');
+  });
+
+</script>
+
+
+</body>
+</html>

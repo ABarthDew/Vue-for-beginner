@@ -7,7 +7,7 @@ Vue.config.productionTip = false
 Vue.use(Vuex);
 
 export const store = new Vuex.Store({
-  state:{
+  state: {
     message: 'hello vue.js'
   },
   getters: {
@@ -18,7 +18,7 @@ export const store = new Vuex.Store({
   mutations: {
     // reverse(state, data) {
     //   state.message = data.split('').reverse().join(''); //---(1)
-      reverse(state) {
+    reverse(state) {
       state.message = state.message.split('').reverse().join('');
     }
   },

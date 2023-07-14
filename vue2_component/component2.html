@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://unpkg.com/vue"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
 <!--지역 컴포넌트와 전역 커모넌트의 차이점 : 인스턴스의 유효 범위-->
 <div id="app">
-    <h3>첫 번째 인스턴스 영역</h3>
-    <my-global-component></my-global-component>
-    <my-local-component></my-local-component>
+  <h3>첫 번째 인스턴스 영역</h3>
+  <my-global-component></my-global-component>
+  <my-local-component></my-local-component>
 </div>
 <hr>
 <div id="app2">
-    <my-global-component></my-global-component>
-    <my-local-component></my-local-component>
+  <my-global-component></my-global-component>
+  <my-local-component></my-local-component>
 </div>
 
 <script>
-    //전역 컴포넌트
-    Vue.component('my-global-component', {
-        template:'<div>전역 컴포넌트!!!</div>'
-    });
+  //전역 컴포넌트
+  Vue.component('my-global-component', {
+    template: '<div>전역 컴포넌트!!!</div>'
+  });
 
-    //지역 컴포넌트
-    var local = {
-        template: '<div>지역 컴포넌트!!!</div>'
+  //지역 컴포넌트
+  var local = {
+    template: '<div>지역 컴포넌트!!!</div>'
+  }
+  new Vue({
+    el: '#app',
+    components: {
+      'my-local-component': local
     }
-    new Vue({
-        el:'#app',
-        components:{
-            'my-local-component':local
-        }
-    });
+  });
 
-    //두번째 인스턴스
-    new Vue({
-        el:'#app2'
-    });
+  //두번째 인스턴스
+  new Vue({
+    el: '#app2'
+  });
 
-    //전역 컴포넌트 : 인스턴스에 components 속성으로 등록할 필요 없이 한번 등록하면 어느 인스턴스에서든 사용가능
-    //지역 컴포넌트 : 새 인스턴스를 생성할 때마다 등록해 줘야 함
+  //전역 컴포넌트 : 인스턴스에 components 속성으로 등록할 필요 없이 한번 등록하면 어느 인스턴스에서든 사용가능
+  //지역 컴포넌트 : 새 인스턴스를 생성할 때마다 등록해 줘야 함
 </script>
 </body>
 </html>

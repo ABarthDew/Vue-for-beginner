@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
+import myLogin from './views/MyLogin.vue'
+import myJoin from './views/MyJoin.vue'
+import VueRouter from 'vue-router'
 
 Vue.config.productionTip = false
 
@@ -27,23 +30,20 @@ for(let i=0;i<1;i++) {
 console.log('for문 바깥쪽', bar2);
 */
 
-import myLogin from './views/MyLogin.vue'
-import myJoin from './views/MyJoin.vue'
-import VueRouter from 'vue-router'
-
 const rout = [
-  {path:'/my-login', component:myLogin},
-  {path:'/my-join', component:myJoin
-      // , children: [
-      // {path:'1', component:myJoin1},
-      // {path:'2', component:myJoin2},
-      // ]
+  {path: '/my-login', component: myLogin},
+  {
+    path: '/my-join', component: myJoin
+    // , children: [
+    // {path:'1', component:myJoin1},
+    // {path:'2', component:myJoin2},
+    // ]
   }
 ];
 
 const router = new VueRouter({
   mode: 'history',
-  routes:rout
+  routes: rout
 });
 
 Vue.use(VueRouter); //VueRouter(라이브러리)에서 제공하는 커스텀 인스턴스가 있으므로, 그걸 쓰겠다는 것 <view-router>

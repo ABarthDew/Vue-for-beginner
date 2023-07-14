@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="app">
+  <p>{{count}}</p>
+  <p>{{secondCount}}</p>
+  <p>computed:{{double}}</p>
+  <p>methods: {{triple()}}</p>
+  <button @click="count++">click</button>
+  <button @click="secondCount++">click2</button>
+</div>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      count: 0,
+      secondCount: 0
+    },
+    computed: {
+      double: function () { //자신이 참조하고 있는 count 값이 변경될 때만 재실행
+        console.log('computed double');
+        return this.count * 2
+      }
+    },
+    methods: {
+      triple: function () { //자신이 참조하고 있는 count가 변경될 때, 자신의 계산식과는 전혀 상관없는 secondCount가 변경될 때도 다시 실행
+        console.log('methods triple');
+        return this.count * 3
+      }
+    }
+  });
+  //즉, methods는 모든 상황에서 재실행됨
+  //반면 computed는 참조하고 있는 값의 변경해만 재실행됨
+</script>
+</body>
+</html>

@@ -1,56 +1,56 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://unpkg.com/vue"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
-    <div id="app">
-        <ul>
-            <li v-for="dd in items">{{dd.id}}
-                <img :src="dd.image">
-            </li>
-        </ul>
+<div id="app">
+  <ul>
+    <li v-for="dd in items">{{dd.id}}
+      <img :src="dd.image">
+    </li>
+  </ul>
 
-        <template v-for="dd in items">
-            <li>
-                <img :src="dd.image">
-            </li>
-            <li>{{dd.id}}</li>
-        </template>
-    </div>
-    브라우저 콘솔에서 app.items.push({}id:4, image:'...'}); 라고 입력하면 자동추가됨
-    뷰js는 데이터가 어떻게 화면에 보여줄지 정의해놓기만 하면 데이터 변경을 자동으로 감지하고 알아서 업데이트 시켜줌
+  <template v-for="dd in items">
+    <li>
+      <img :src="dd.image">
+    </li>
+    <li>{{dd.id}}</li>
+  </template>
+</div>
+브라우저 콘솔에서 app.items.push({}id:4, image:'...'}); 라고 입력하면 자동추가됨
+뷰js는 데이터가 어떻게 화면에 보여줄지 정의해놓기만 하면 데이터 변경을 자동으로 감지하고 알아서 업데이트 시켜줌
 <script>
-    new Vue({ //인스턴스 생성
-        el:'#app',
-        data(){ //외부에서 사용할 데이터를 선언해서 사용
-            return{
-                items:[
-                    {
-                        id:1,
-                        image:'https://www.w3schools.com/w3css/img_lights.jpg'
-                    },
-                    {
-                        id:2,
-                        image:'https://www.w3schools.com/w3css/img_lights.jpg'
-                    },
-                    {
-                        id:3,
-                        image:'https://www.w3schools.com/w3css/img_lights.jpg'
-                    },
-                    {
-                        id:4,
-                        image:'https://www.w3schools.com/w3css/img_lights.jpg'
-                    },
-                ]
-            }
-        }
-    });
+  new Vue({ //인스턴스 생성
+    el: '#app',
+    data() { //외부에서 사용할 데이터를 선언해서 사용
+      return {
+        items: [
+          {
+            id: 1,
+            image: 'https://www.w3schools.com/w3css/img_lights.jpg'
+          },
+          {
+            id: 2,
+            image: 'https://www.w3schools.com/w3css/img_lights.jpg'
+          },
+          {
+            id: 3,
+            image: 'https://www.w3schools.com/w3css/img_lights.jpg'
+          },
+          {
+            id: 4,
+            image: 'https://www.w3schools.com/w3css/img_lights.jpg'
+          },
+        ]
+      }
+    }
+  });
 </script>
 </body>
 </html>

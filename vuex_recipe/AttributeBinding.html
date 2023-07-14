@@ -1,82 +1,88 @@
 <!doctype html>
 <html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://unpkg.com/vue"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue"></script>
 </head>
-    <style>
-        .one ul{border:1px solid #000; display:none;}
-        .one.twoIs ul{display:block;}
-    </style>
+<style>
+  .one ul {
+    border: 1px solid #000;
+    display: none;
+  }
+
+  .one.twoIs ul {
+    display: block;
+  }
+</style>
 <body>
-    <div id="app">
-        <img v-bind:src="image">
-        <img :src="image">
-<!--        //data를 attribute에 연결하려면 :(attribute)="(변수명)"-->
-        <img :id="`thumbnail_${id}`" :src="image">
-<!--        //ecma6 문법-->
-<!--        //결과 : <img :id="thumbnail_1" :src="image">-->
+<div id="app">
+  <img v-bind:src="image">
+  <img :src="image">
+  <!--        //data를 attribute에 연결하려면 :(attribute)="(변수명)"-->
+  <img :id="`thumbnail_${id}`" :src="image">
+  <!--        //ecma6 문법-->
+  <!--        //결과 : <img :id="thumbnail_1" :src="image">-->
 
-        <div :style="style">테스트용1</div>
-        <div :style="style2">테스트용2</div>
-        <div :style="[style2, fontStyle]">테스트용3</div>
-<!--        //배경변경-->
+  <div :style="style">테스트용1</div>
+  <div :style="style2">테스트용2</div>
+  <div :style="[style2, fontStyle]">테스트용3</div>
+  <!--        //배경변경-->
 
-        <div :class="dropDown">테스트용4</div>
-        <div :class="[dropDown, toggle, giggle]">테스트용5</div>
-<!--            app.giggle.gig = true; 로 변경하면 gig 클래스도 나타남-->
-<!--        클래스 : 실행하면 class 네임 설정됨-->
+  <div :class="dropDown">테스트용4</div>
+  <div :class="[dropDown, toggle, giggle]">테스트용5</div>
+  <!--            app.giggle.gig = true; 로 변경하면 gig 클래스도 나타남-->
+  <!--        클래스 : 실행하면 class 네임 설정됨-->
 
-        <div :class="[one, two]">
-<!--            app.two.twoIs = true 콘솔에 찍으면 메뉴가 나타남-->
-            <ul>
-                <li><a href="#">메뉴1</a></li>
-                <li><a href="#">메뉴2</a></li>
-            </ul>
-            <button @click="btnClick">메뉴보이기</button>
-        </div>
-    </div>
+  <div :class="[one, two]">
+    <!--            app.two.twoIs = true 콘솔에 찍으면 메뉴가 나타남-->
+    <ul>
+      <li><a href="#">메뉴1</a></li>
+      <li><a href="#">메뉴2</a></li>
+    </ul>
+    <button @click="btnClick">메뉴보이기</button>
+  </div>
+</div>
 <script>
-    let app = new Vue({
-        el:'#app',
-        data(){
-            return{
-                id:1,
-                image:'https://www.w3schools.com/w3css/img_lights.jpg',
-                //스타일
-                style:'background:red',
-                style2: {
-                    background:'blue',
-                    'font-size':20, //2음절 이상은 - 쓰거나 카멜케이스로
-                    fontFamily:'courier-new'
-                },
-                fontStyle:{
-                    color:'#fff'
-                },
-                //클래스
-                dropDown:{
-                    dropDown:true //(적용할 클래스명 : 적용여부)
-                },
-                toggle:'toggle',
-                giggle:{
-                    gig : false
-                },
-                one:'one',
-                two:{
-                    twoIs:false
-                }
-            }
+  let app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        id: 1,
+        image: 'https://www.w3schools.com/w3css/img_lights.jpg',
+        //스타일
+        style: 'background:red',
+        style2: {
+          background: 'blue',
+          'font-size': 20, //2음절 이상은 - 쓰거나 카멜케이스로
+          fontFamily: 'courier-new'
         },
-        methods:{
-            btnClick(){
-                this.two.twoIs = ! this.two.twoIs;
-            }
+        fontStyle: {
+          color: '#fff'
+        },
+        //클래스
+        dropDown: {
+          dropDown: true //(적용할 클래스명 : 적용여부)
+        },
+        toggle: 'toggle',
+        giggle: {
+          gig: false
+        },
+        one: 'one',
+        two: {
+          twoIs: false
         }
-    });
+      }
+    },
+    methods: {
+      btnClick() {
+        this.two.twoIs = !this.two.twoIs;
+      }
+    }
+  });
 </script>
 </body>
 </html>

@@ -6,7 +6,8 @@
     <br>
     <router-link to="/hello">hello</router-link>
     <router-link to="/test">test</router-link>
-    <br><router-view></router-view>
+    <br>
+    <router-view></router-view>
   </div>
 </template>
 

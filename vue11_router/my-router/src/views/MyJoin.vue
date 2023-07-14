@@ -7,7 +7,7 @@
 
 
 <script>
-export default{
-  name : 'MyJoin'
+export default {
+  name: 'MyJoin'
 }
 </script>

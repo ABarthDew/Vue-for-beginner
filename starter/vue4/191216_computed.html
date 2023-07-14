@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="app">
+  <p>{{count}}</p>
+  <p>{{isLargerThanTen}}</p>
+  <p>{{isLargerThanTen()}}</p>
+  <button @click="count++">클릭</button>
+</div>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      count: 0
+    },
+    computed: {
+      isLargerThanTen: function () {
+        return this.count * 3 > 10 ? "10보다 큼" : "10보다 작거나 같음"
+      }
+    },
+    methods: {
+      isLargerThanTen: function () {
+        return this.count * 3 > 10 ? "10보다 큼2" : "10보다 작거나 같음2"
+      }
+    }
+  });
+</script>
+</body>
+</html>

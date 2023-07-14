@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://unpkg.com/vue"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
 *하위에서 상위 컴포넌트로 이벤트 전달하기 : 이벤트를 발생시켜(event emit) 상위 컴포넌트에 신호를 보냄<br>
@@ -17,35 +17,35 @@
 
 *이벤트 발생과 수신 형식 : $emit() / v-on 속성
 <!-- -이벤트 발생 : this.$emit('이벤트명'); -->
-    ㄴ(호출시 '이벤트' 발생 / 하위 컴포넌트의 특정 메서드 내부에 위치 / this:하위 컴포넌트)
+ㄴ(호출시 '이벤트' 발생 / 하위 컴포넌트의 특정 메서드 내부에 위치 / this:하위 컴포넌트)
 <!-- -이벤트 수신 : <child-component v-on:이벤트명="상위 컴포넌트의 메서드명"></child-component>-->
-    ㄴ(v-on속성에 이벤트명을 지정 / 호출될 상위 컴포넌트의 메서드 지정)
+ㄴ(v-on속성에 이벤트명을 지정 / 호출될 상위 컴포넌트의 메서드 지정)
 
 <div id="app">
-    <child-component v-on:show-log="printText"></child-component>
+  <child-component v-on:show-log="printText"></child-component>
 </div>
 
 <script>
-    //child-component의 [버튼]을 눌러 이벤트를 발생시키고, 발생한 이벤트로 상위 컴포넌트의 printText() 메서드를 실행
-    Vue.component('child-component', {
-        template:'<button v-on:click="showLog">버튼</button>',
-        methods:{
-            showLog:function(){
-                this.$emit('show-log');
-            }
-        }
-    });
-    var app = new Vue({
-        el:'#app',
-        data:{
-            message:'Hello vue! passed from parent component'
-        },
-        methods:{
-            printText:function(){
-                console.log("received an event!");
-            }
-        }
-    });
+  //child-component의 [버튼]을 눌러 이벤트를 발생시키고, 발생한 이벤트로 상위 컴포넌트의 printText() 메서드를 실행
+  Vue.component('child-component', {
+    template: '<button v-on:click="showLog">버튼</button>',
+    methods: {
+      showLog: function () {
+        this.$emit('show-log');
+      }
+    }
+  });
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello vue! passed from parent component'
+    },
+    methods: {
+      printText: function () {
+        console.log("received an event!");
+      }
+    }
+  });
 </script>
 </body>
 </html>

@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://unpkg.com/vue"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
-    *싱글 파일 컴포넌트 체계 예
+*싱글 파일 컴포넌트 체계 예
 
-    <template>
-        <div>
+<template>
+  <div>
             <span>
                 <button>{{message}}</button>
             </span>
-        </div>
-    </template>
+  </div>
+</template>
 
 <script>
-    export default{
-        data:{
-            message:'click this button'
-        }
+  export default {
+    data: {
+      message: 'click this button'
     }
+  }
 </script>
 
 <style>
-    span{font-size:1.2em;}
+  span {
+    font-size: 1.2em;
+  }
 </style>
 </body>
 </html>

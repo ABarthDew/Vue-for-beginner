@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://unpkg.com/vue"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
 </head>
 <body>
-    *http : 브라우저-서버 간 데이터를 주고받는 통신 프로토콜
-    -브라우저에서 특정 데이터를 보내달라고 요청, 서버에서 해당 데이터를 보내주는 응답
+*http : 브라우저-서버 간 데이터를 주고받는 통신 프로토콜
+-브라우저에서 특정 데이터를 보내달라고 요청, 서버에서 해당 데이터를 보내주는 응답
 
-    *뷰 리소스
-    <div id="app">
-        <button @click="getData">프레임워크 목록 가져오기</button>
-    </div>
+*뷰 리소스
+<div id="app">
+  <button @click="getData">프레임워크 목록 가져오기</button>
+</div>
 
 <script>
-    new Vue({
-        el:'#app',
-        methods:{
-            getData:function(){
-                this.$http.get('https://raw.githubusercontent.com/joshua1988/doit-vuejs/master/data/demo.json').then(function(response){
-                    console.log(response);
-                    console.log(response.data);
-                });
-            }
-        }
-    });
+  new Vue({
+    el: '#app',
+    methods: {
+      getData: function () {
+        this.$http.get('https://raw.githubusercontent.com/joshua1988/doit-vuejs/master/data/demo.json').then(function (response) {
+          console.log(response);
+          console.log(response.data);
+        });
+      }
+    }
+  });
 </script>
 </body>
 </html>

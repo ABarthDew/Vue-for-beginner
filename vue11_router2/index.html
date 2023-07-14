@@ -8,30 +8,30 @@
   <title>Document</title>
 </head>
 <body>
-  <my-component></my-component>
+<my-component></my-component>
 
-  <script>
-    Vue.component('my-component', {
-      props:{
-        propA : Number,
-        propB : [String, Number],
-        propC : {
-          type:String,
-          required : true
-        },
-        propD : {
-          type:Number,
-          default:100
-        },
-        propE : {
-          type:Object,
-          default:function(){
-            return {message : 'hello'}
-          }
-        },
-        propF : {
-          validator:function(value){
-            return ['success', 'warning', 'danger'].indexOf(value) !== -`
+<script>
+  Vue.component('my-component', {
+    props: {
+      propA: Number,
+      propB: [String, Number],
+      propC: {
+        type: String,
+        required: true
+      },
+      propD: {
+        type: Number,
+        default: 100
+      },
+      propE: {
+        type: Object,
+        default: function () {
+          return {message: 'hello'}
+        }
+      },
+      propF: {
+        validator: function (value) {
+          return ['success', 'warning', 'danger'].indexOf(value) !== -`
           }
         }
       }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://unpkg.com/vue"></script>
+  <title>Title</title>
+</head>
+<body>
+
+<div id="vue">{{name}} : 보간법</div>
+
+<script>
+  new Vue({
+    el: '#vue',
+    data: function () {
+      return { //객체를 리턴함
+        name: 'ks'
+      };
+    } //data는 함수로만 선언 (값x)
+  });
+</script>
+</body>
+</html>

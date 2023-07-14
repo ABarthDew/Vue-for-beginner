@@ -14,46 +14,46 @@ import TodoList from './components/TodoList.vue'
 import TodoFooter from './components/TodoFooter.vue'
 
 // export const test = {
-   
+
 // }
 
 export default {
   name: 'app',
-  data:function(){
-    return{
-      todoItems : []
+  data: function () {
+    return {
+      todoItems: []
     }
   },
-  methods:{
-    addTodo:function(todoItem){
+  methods: {
+    addTodo: function (todoItem) {
       localStorage.setItem(todoItem, todoItem);
       this.todoItems.push(todoItem);
     },
-    clearAll:function(){
+    clearAll: function () {
       localStorage.clear();
       this.todoItems = [];
     },
-    removeTodo:function(todoItem, idx){
+    removeTodo: function (todoItem, idx) {
       localStorage.removeItem(todoItem);
       this.todoItems.splice(idx, 1);
     }
   },
-  created(){
-    if(localStorage.length > 0){
-      for(var i=0; i<localStorage.length; i++){
+  created() {
+    if (localStorage.length > 0) {
+      for (var i = 0; i < localStorage.length; i++) {
         this.todoItems.push(localStorage.key(i));
       }
     }
   },
   components: {
-    'TodoHeader' : TodoHeader,
-    'TodoInput' : TodoInput,
-    'TodoList' : TodoList,
-    'TodoFooter' : TodoFooter
+    'TodoHeader': TodoHeader,
+    'TodoInput': TodoInput,
+    'TodoList': TodoList,
+    'TodoFooter': TodoFooter
   }
 }
 </script>
-bv 
+bv
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

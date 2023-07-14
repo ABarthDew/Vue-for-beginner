@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://unpkg.com/vue"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
 상, 하위 컴포넌트 관계<br>
@@ -18,24 +18,24 @@ vue.js의 컴포넌트는 각각 고유한 scope를 갖고 있기에, 값을 전
 1. props 속성에 정의<br>
 2. 컴포넌트 태그에 v-bind 속성 추가<br>
 <div id="app">
-    <child-component v-bind:propsdata="message"></child-component>
+  <child-component v-bind:propsdata="message"></child-component>
 </div>
 
 <script>
-    Vue.component('child-component', {
-        props:['propsdata'],
-        template:'<p>{{propsdata}}</p>'
-    });
-    new Vue({
-        el:'#app',
-        data:{
-            message:'Hello vue! passed from parent Component' //message속성을 하위 컴포넌트에 props로 전달하여 메세지 출력
-        }
-    });
+  Vue.component('child-component', {
+    props: ['propsdata'],
+    template: '<p>{{propsdata}}</p>'
+  });
+  new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello vue! passed from parent Component' //message속성을 하위 컴포넌트에 props로 전달하여 메세지 출력
+    }
+  });
 
-    //*주의 : 컴포넌트 간 관계
-    // - 뷰 인스턴스(상위 컴포넌트) -> (props를 통해 데이터 전달) -> child-component(하위 컴포넌트)
-    // 뷰 인스턴스 자체가 상위 컴포넌트가 됨(root component)
+  //*주의 : 컴포넌트 간 관계
+  // - 뷰 인스턴스(상위 컴포넌트) -> (props를 통해 데이터 전달) -> child-component(하위 컴포넌트)
+  // 뷰 인스턴스 자체가 상위 컴포넌트가 됨(root component)
 </script>
 </body>
 </html>

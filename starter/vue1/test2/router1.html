@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <h1>view router example</h1>
+  <p>
+    <router-link to="/main">go main component</router-link>
+    <router-link to="/login">go login component</router-link>
+  </p>
+  <router-view></router-view>
+</div>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
+<script>
+  var Main = {template: '<div>main</div>'}
+  var Login = {template: '<div>login</div>'}
+
+  var routes = [
+    {path: '/main', component: Main},
+    {path: '/login', component: Login}
+  ];
+  var router = new VueRouter({
+    // mode:'history',
+    routes
+  });
+  var app = new Vue({
+    router
+  }).$mount('#app');
+</script>
+</body>
+</html>

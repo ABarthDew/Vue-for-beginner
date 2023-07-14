@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="app">
+  <h1>
+    dataPropertyIsReactive = "{{dataPropertyIsReactive}}"
+  </h1>
+  <button onclick="changeData();">
+    button
+  </button>
+</div>
+
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      dataPropertyIsReactive: 'dummy'
+    }
+  });
+
+  function changeData() {
+    const now = new Date();
+    app.dataPropertyIsReactive = now.toLocaleString();
+  };
+</script>
+</body>
+</html>

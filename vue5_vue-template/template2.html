@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+*템플릿에서 사용하는 뷰의 속성과 문법
+-데이터 바인딩
+-자바스크립트 표현식
+-디렉티브
+-이벤트 처리
+-고급 템플릿 기법
+
+1.데이터 바인딩 : html화면 요소를 뷰 인스턴스의 데이터와 연결하는 것을 의미
+ex. {{}} 문법 / v-bind 속성
+
+// {{}} : 콧수염 괄호
+ㄴ뷰 인스턴스의 데이터를 html 태그에 연결하는 가장 기본적인 텍스트 삽입 방식
+<div id="app1">
+  {{message}}
+</div>
+<script>
+  new Vue({
+    el: '#app1',
+    data: {
+      message: '111'
+    }
+  });
+</script>
+<hr>
+// v-once : 뷰 데이터가 변경되어도 값을 바꾸고 싶지 않을 때
+<div id="app2" v-once>
+  {{message}}
+</div>
+<script>
+  new Vue({
+    el: '#app2',
+    data: {
+      message: '222'
+    }
+  });
+</script>
+<hr>
+// v-bind : 아이디, 클래스, 스타일 등의 html속성 값에 뷰 데이터 값을 연결할 때 사용하는 데이터 연결 방식
+<div id="app3">
+  <p v-bind:id="idA">아이디 바인딩</p>
+  <p v-bind:class="classA">클래스 바인딩</p>
+  <p v-bind:style="styleA">스타일 바인딩</p>
+</div>
+<script>
+  new Vue({
+    el: '#app3',
+    data: {
+      idA: 10,
+      classA: 'container',
+      styleA: 'color:blue'
+    }
+  });
+</script>
+
+</body>
+</html>

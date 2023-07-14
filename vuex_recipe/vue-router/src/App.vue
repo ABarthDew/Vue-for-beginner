@@ -37,9 +37,9 @@
         </v-list-tile>
         <!--        메뉴 끝-->
 
-<!--        //*메뉴 추가-->
-<!--        <v-list-tile :to="{name:'users'}">-->
-<!--        //*값 넘기기 : params 객체에 값을 넣어서 전달하는 방법(2)-->
+        <!--        //*메뉴 추가-->
+        <!--        <v-list-tile :to="{name:'users'}">-->
+        <!--        //*값 넘기기 : params 객체에 값을 넣어서 전달하는 방법(2)-->
         <v-list-tile router :to="{
           name:'users',
           params:{

@@ -6,13 +6,13 @@ import MyLogin from './router/MyLogin.vue'
 import MyHome from './router/MyHome.vue'
 
 const routes = [
-  {path:'/join', component:MyJoin},
-  {path:'/login', component:MyLogin},
-  {path:'/home', component:MyHome}
+  {path: '/join', component: MyJoin},
+  {path: '/login', component: MyLogin},
+  {path: '/home', component: MyHome}
 ];
 
 const router = new VueRouter({
-  mode:'history',
+  mode: 'history',
   routes
 });
 

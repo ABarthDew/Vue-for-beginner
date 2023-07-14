@@ -15,7 +15,8 @@
     </button-tab>
 
     <br>
-    <hr>------------------------------------------------------------
+    <hr>
+    ------------------------------------------------------------
     <br>
 
     <button-tab2>
@@ -35,7 +36,8 @@
     </button-tab2>
 
     <br>
-    <hr>------------------------------------------------------------
+    <hr>
+    ------------------------------------------------------------
     <br>
 
     <button-tab2>
@@ -52,25 +54,25 @@
 </template>
 
 <script>
-  import ButtonTab from './components/ButtonTab.vue'
-  import ButtonTab2 from './components/ButtonTab2.vue'
+import ButtonTab from './components/ButtonTab.vue'
+import ButtonTab2 from './components/ButtonTab2.vue'
 
-  export default {
-    name: 'app',
-    components: {
-      ButtonTab,
-      ButtonTab2
-    }
+export default {
+  name: 'app',
+  components: {
+    ButtonTab,
+    ButtonTab2
   }
+}
 </script>
 
 <style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>

@@ -5,8 +5,8 @@
 
 <script>
 export default {
-  methods:{
-    deleteAll:function(){
+  methods: {
+    deleteAll: function () {
       this.$emit('del');
     }
   }

@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png"><br>
-    <a href="#" @click.prevent="goFirst">처음으로</a> | 
-    <a href="#" @click.prevent="goHome">home</a> | 
-    <router-link to="/join">join</router-link> | 
+    <a href="#" @click.prevent="goFirst">처음으로</a> |
+    <a href="#" @click.prevent="goHome">home</a> |
+    <router-link to="/join">join</router-link>
+    |
     <router-link to="/login">login</router-link>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <router-view></router-view>
@@ -18,11 +19,11 @@ export default {
   components: {
     HelloWorld
   },
-  methods:{
-    goHome:function(){
+  methods: {
+    goHome: function () {
       this.$router.push("/home");
     },
-    goFirst:function(){
+    goFirst: function () {
       this.$router.push("/");
     }
   }
@@ -38,5 +39,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-.color{color:#dae1e7}
+
+.color {
+  color: #dae1e7
+}
 </style>

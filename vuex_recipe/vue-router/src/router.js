@@ -47,10 +47,10 @@ export default new Router({
     },
     //더 빨리 불러오는 방법(방법2)
     // => 상수를 선언한 다음 그것을 불러옴(상수는 상단에 선언)
-      //*방법1, 2의 차이 : 속도면에서 차이남
-        //방법1 : js파일이 로딩될 때, 웹 페이지에 들어와서 라우터가 동작할 때, 라우터에 연결되어있는 모든 컴포넌트를 불러와서 쥐고 있다가 주소창에 맞는 화면만 보여줌
-        // => 모두 로딩 후, 보여지는 화면만 다르게 동작
-        //방법2 : 상수를 선언한 후 그 값을 입력해주면 주소와 연결되어있는 컴포넌트 하나만 불러와서 화면에 뿌려줌
+    //*방법1, 2의 차이 : 속도면에서 차이남
+    //방법1 : js파일이 로딩될 때, 웹 페이지에 들어와서 라우터가 동작할 때, 라우터에 연결되어있는 모든 컴포넌트를 불러와서 쥐고 있다가 주소창에 맞는 화면만 보여줌
+    // => 모두 로딩 후, 보여지는 화면만 다르게 동작
+    //방법2 : 상수를 선언한 후 그 값을 입력해주면 주소와 연결되어있는 컴포넌트 하나만 불러와서 화면에 뿌려줌
     {
       //*users 추가
       path: '/users/:id', //파라미터 전달 : 주소창에 값을 넣어 전달하는 방법(1)
@@ -66,12 +66,12 @@ export default new Router({
       // }
       // }">
       // 때문에 4321, hoza라는 값이 화면에 확인됨
-      name:'users',
+      name: 'users',
       component: Users
     },
     {
-      path:'/child',
-      name:'child',
+      path: '/child',
+      name: 'child',
       //*router guard
       // beforeEnter:(to, from, next) => {
       //   //라우터가 불러와지기 전에 이 함수가 실행된 후, 라우터 실행
@@ -120,33 +120,33 @@ export default new Router({
       //   }
       //   * */
       // },
-      component:Child,
-      children:[ //하위경로 : 배열 안에 객체를 만듬
+      component: Child,
+      children: [ //하위경로 : 배열 안에 객체를 만듬
         {
-          path:':id', //하위경로므로 이렇게만 써도 됨
-          name:'child-detail',
-          component:ChildDetail
+          path: ':id', //하위경로므로 이렇게만 써도 됨
+          name: 'child-detail',
+          component: ChildDetail
           //http://localhost:8081/child/99 와 같이 /child 뒤에 값을 넣으면 child-detail이 보임
         },
         {
-          path:':id/edit', //http://localhost:8081/child/asdfdsf/edit
-          name:'child-edit',
-          component:ChildEdit
+          path: ':id/edit', //http://localhost:8081/child/asdfdsf/edit
+          name: 'child-edit',
+          component: ChildEdit
         }
       ]
     },
-      //Redirection
-      //라우트를 만들어 놓지 않은 곳으로 유저가 들어왔을 때
+    //Redirection
+    //라우트를 만들어 놓지 않은 곳으로 유저가 들어왔을 때
     {
-      path:'/redirect-me', //이 주소로 왔을 때
+      path: '/redirect-me', //이 주소로 왔을 때
       // redirect: '/users' //이 곳으로 사용자를 보내라(path가 들어가면 됨)
-      redirect : {name:'users'}
+      redirect: {name: 'users'}
       //결과: 주소창을 통해 /redirect-me로 진입하면 users로 보내짐
     },
     //사용자가 아무 주소를 쳤을 때 빈공간이 안 보이게끔 예외처리를 하는 법
     {
-      path:'/*', //*를 붙여주는 의미 = 이곳에 선언된 모든 path들 중 하나도 걸리지 않는다면 무조건 여기로 redirect
-      redirect:{name:'home'}
+      path: '/*', //*를 붙여주는 의미 = 이곳에 선언된 모든 path들 중 하나도 걸리지 않는다면 무조건 여기로 redirect
+      redirect: {name: 'home'}
     }
   ]
 })

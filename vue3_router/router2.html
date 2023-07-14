@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://unpkg.com/vue"></script>
-    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 </head>
 <body>
 <!--    *네스티드 라우터-->
 <!--    -페이지를 이동할 때 최소 2개 이상의 컴포넌트를 화면에 나타낼 수 있음-->
 <!--    -상위 컴포넌트 1개에 하위 컴포넌트 1개를 포함하는 구조로 구성-->
 
-    <div id="app">
-        <router-view></router-view>
-<!--        user 컴포넌트가 뿌려질 영역-->
-    </div>
+<div id="app">
+  <router-view></router-view>
+  <!--        user 컴포넌트가 뿌려질 영역-->
+</div>
 <script>
-    //컴포넌트 내용 정의
-    var User={
-        template:'<div>user component' +
-            '<router-view></router-view>' + //하위 컴포넌트가 뿌려질 영역
-            '</div>'
-    };
-    var UserProfile = {
-        template:'<p>User Profile</p>'
-    };
-    var UserPost={
-        template:'<p>User Posts</p>'
-    };
+  //컴포넌트 내용 정의
+  var User = {
+    template: '<div>user component' +
+      '<router-view></router-view>' + //하위 컴포넌트가 뿌려질 영역
+      '</div>'
+  };
+  var UserProfile = {
+    template: '<p>User Profile</p>'
+  };
+  var UserPost = {
+    template: '<p>User Posts</p>'
+  };
 
-    //네스티드 라우팅 정의
-    var routes=[
-        {
-            path:'/user',
-            component:User,
-            children:[
-                {path:'posts', component:UserPost},
-                {path:'profile', component:UserProfile}
-            ]
-        }
-    ];
+  //네스티드 라우팅 정의
+  var routes = [
+    {
+      path: '/user',
+      component: User,
+      children: [
+        {path: 'posts', component: UserPost},
+        {path: 'profile', component: UserProfile}
+      ]
+    }
+  ];
 
-    //뷰 라우터 정의
-    var router=new VueRouter({
-        routes
-    });
+  //뷰 라우터 정의
+  var router = new VueRouter({
+    routes
+  });
 
-    //뷰 인스턴스에 라우터 추가
-    new Vue({
-        router
-    }).$mount('#app');
+  //뷰 인스턴스에 라우터 추가
+  new Vue({
+    router
+  }).$mount('#app');
 </script>
 </body>
 </html>

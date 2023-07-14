@@ -1,5 +1,4 @@
-# Vue-for-beginner
-
+# vue-basic
 - IDE로 실행하기
   ![ex_screenshot](images/npm-run.png)
 

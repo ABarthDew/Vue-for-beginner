@@ -151,10 +151,6 @@
       ㄴ뒤에 객체가 있으면 객체 안의 element를 전개함(밖으로 하나하나 다 뺌)<br>
       (ex) [...this.currentQuestion.incorrect_answers] => [1번째부터 차례로,2번재,3번째,4,5,6...]
   </tr>
-  <tr>
-    <td>
-    <td>
-  </tr>
 </table>
 
 ---
